@@ -1,0 +1,40 @@
+.prop-container{
+    display:flex; justify-content: space-evenly;
+}
+
+.prop-container div img{
+    width:100%;
+}
+
+/** Renovation Styles **/
+.reno1{
+    display: flex; flex-direction: column; flex-grow: 1; justify-content: center;
+}
+
+.reno2{
+    background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;
+}
+.reno3{
+    background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;
+}
+.reno4{
+    display:block; height:50px; margin:0 auto 12px; width:50px;
+}
+
+.instagram{
+    color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;
+}
+
+.reno5{background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);}
+.reno6{background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;}
+.reno7{background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);}
+.reno9{background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;}
+.reno10{width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)}
+.reno11{ width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);}
+.reno12{background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);}
+.reno13{width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);}
+.reno14{display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;}
+.reno15{background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;}
+.reno16{background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;}
+.reno17{ color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;}
+.insta{ color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;}
