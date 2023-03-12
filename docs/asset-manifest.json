@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.6f1a9817.css",
-    "main.js": "./static/js/main.4c6332f5.js",
-    "index.html": "./index.html",
-    "main.6f1a9817.css.map": "./static/css/main.6f1a9817.css.map",
-    "main.4c6332f5.js.map": "./static/js/main.4c6332f5.js.map"
+    "main.css": "/afroscapescurls/static/css/main.6f1a9817.css",
+    "main.js": "/afroscapescurls/static/js/main.4ffa2b2a.js",
+    "index.html": "/afroscapescurls/index.html",
+    "main.6f1a9817.css.map": "/afroscapescurls/static/css/main.6f1a9817.css.map",
+    "main.4ffa2b2a.js.map": "/afroscapescurls/static/js/main.4ffa2b2a.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1a9817.css",
-    "static/js/main.4c6332f5.js"
+    "static/js/main.4ffa2b2a.js"
   ]
 }

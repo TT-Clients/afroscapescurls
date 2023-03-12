@@ -2,7 +2,6 @@ import React from 'react'
 import profile from '../images/profile.jpg'
 
 const Photos: React.FC = () => {
-    const title = 'Regional Vice President, National Sales and Account Management'
 
     return (
         <section className="page-section bg-light" id="photos">
@@ -22,7 +21,7 @@ const Photos: React.FC = () => {
                  <div className="row">
                     <div className="col-md-4">
                         <div className="thumbnail">
-                            <a href="assets/./img/games.jpg">
+                            <a href="./img/games.jpg">
                                 <img src="./img/gamestack.jpg" alt="Nature" style={{ width: '100%' }} />
                             </a>
                         </div>
