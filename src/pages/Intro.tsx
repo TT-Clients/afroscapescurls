@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './index.css'
 
 const Intro: React.FC = () => {
@@ -19,7 +20,7 @@ const Intro: React.FC = () => {
                 
                {/* <!-- <img src="assets/img/door.png" alt="" className="fade-in-door d-block mx-lg-auto img-fluid" srcSet=""/>--> */}
                 <div className="col-right">
-                    <a href="main.html"><img className="fade-in-door" src="img/door.png" alt="" srcSet="" /></a>
+                    <Link to="/home"><img className="fade-in-door" src="img/door.png" alt="" srcSet="" /></Link>
                     <div className="typewriter">
                       <h3>You May Enter</h3>
                     </div>
