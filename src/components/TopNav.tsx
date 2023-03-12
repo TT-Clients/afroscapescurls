@@ -2,7 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 
-const TopNav: React.FC = () => {
+type TopNavProps = {
+  title: string
+}
+
+const TopNav: React.FC<TopNavProps> = ({ title }) => {
  
     return (
       <div>      
@@ -46,7 +50,7 @@ const TopNav: React.FC = () => {
           <div className="row">
             <div className="col-12 col-md-6">
               <div className="col-left fade-in-text">
-                <div className="d-flex justify-content-center header-text"> The House of Afros, Capes & Curls</div>
+                <div className="d-flex justify-content-center header-text"> {title} </div>
                 <div className="d-flex justify-content-center align-items-center">
                   <img src="assets/img/HOACC.png" className="logo" />
                 </div>

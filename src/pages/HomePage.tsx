@@ -13,7 +13,7 @@ import Footer from '../components/Footer'
 const HomePage: React.FC = () => {
     return (
         <body id="body" data-spy="scroll" data-target=".header">
-            <TopNav />
+            <TopNav title='The House of Afros, Capes & Curls'/>
             <Hero />
             <About />
             <Business />
