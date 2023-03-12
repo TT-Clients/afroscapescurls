@@ -1,5 +1,5 @@
 export const ROUTES = {
-    INTRO_ROUTE: '/',
+    INTRO_ROUTE: '/afroscapescurls/',
     MAINPAGE_ROUTE: '/home',
     ABOUT_ROUTE: '/about',
     COMMUNITYENGAGEMENT_ROUTE: '/community-engagement',
