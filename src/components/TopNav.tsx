@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import { ROUTES } from '../resources/routes-constants'
 
 const TopNav: React.FC = () => {
  
@@ -6,11 +8,10 @@ const TopNav: React.FC = () => {
       <div>      
         <nav className="mainnav navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
           <div className="container flex-wrap">
-            <a className="navbar-brand d-none d-sm-block" href="#page-top">
-        
+            <Link className="navbar-brand d-none d-sm-block" to="#page-top">
               <div style={{"display":"flex"}}>
               <span>The House of Afros, Capes and Curls</span></div>
-            </a>
+            </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               Menu
@@ -18,20 +19,25 @@ const TopNav: React.FC = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <li className="nav-item"><a className="nav-link" href="main.html">Home</a></li>
+                <li className="nav-item"><Link className="nav-link" to={ROUTES.MAINPAGE_ROUTE}>Home</Link></li>
                 <li className="nav-item dropdown">
-                  <a className="nav-link dropdown-toggle" href="about.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About
-                  </a>
+                  <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to={ROUTES.ABOUT_ROUTE}>About</Link>
                   <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="about.html">About HOACC</a></li>
-                    <li><a className="dropdown-item" href="team.html">Meet the Team</a></li>
-                    
+                    <li><Link className="dropdown-item" to={ROUTES.ABOUT_ROUTE}>About HOACC</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.MEETTEAM_ROUTE}>Meet the Team</Link></li>
                   </ul>
                 </li>
-                <li className="nav-item"><a className="nav-link" href="community_engagement.html">Community Engagement</a></li>
-                <li className="nav-item education"><a className="nav-link" href="education.html">Education</a></li>
-                <li className="nav-item"><a className="nav-link" href="specialevents.html">Special Events</a></li>
+                <li className="nav-item"><Link className="nav-link" to={ROUTES.COMMUNITYENGAGEMENT_ROUTE}>Community Engagement</Link></li>
+                <li className="nav-item education"><Link className="nav-link" to={ROUTES.EDUCATION_ROUTE}>Education</Link></li>
+                <li className="nav-item dropdown">
+                  <Link className="nav-link dropdown-toggle" to={ROUTES.SPECIALEVENTS_ROUTE} role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                  </Link>
+                  <ul className="dropdown-menu">
+                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Special Events</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.SIGNATUREEVENTS_ROUTE}>Signature Events</Link></li>
+                  </ul>
+                </li>
               </ul>
             </div>
           </div>
