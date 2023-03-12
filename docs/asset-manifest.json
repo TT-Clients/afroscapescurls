@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hoaccnew/static/css/main.6f1a9817.css",
-    "main.js": "/hoaccnew/static/js/main.914db14c.js",
-    "index.html": "/hoaccnew/index.html",
-    "main.6f1a9817.css.map": "/hoaccnew/static/css/main.6f1a9817.css.map",
-    "main.914db14c.js.map": "/hoaccnew/static/js/main.914db14c.js.map"
+    "main.css": "./static/css/main.6f1a9817.css",
+    "main.js": "./static/js/main.cbcf3753.js",
+    "index.html": "./index.html",
+    "main.6f1a9817.css.map": "./static/css/main.6f1a9817.css.map",
+    "main.cbcf3753.js.map": "./static/js/main.cbcf3753.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1a9817.css",
-    "static/js/main.914db14c.js"
+    "static/js/main.cbcf3753.js"
   ]
 }
