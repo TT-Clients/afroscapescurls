@@ -50,7 +50,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
               </ul>
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
        
-              <a href="http://" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
+              <a href="#photos" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
               </span>
             </div>
           </div>

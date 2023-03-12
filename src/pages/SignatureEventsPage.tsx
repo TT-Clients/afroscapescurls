@@ -1,5 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Footer from '../components/Footer'
 import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
 
@@ -22,6 +23,22 @@ const SignatureEventsPage: React.FC = () => {
                     Homepage
                 </span>
             </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <div className="text-center mt-1" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
+                            <h1 className="text-uppercase">Signature Events</h1>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                         <div data-tockify-component="calendar" data-tockify-calendar="the.house.events"></div>
+                    </div>
+                </div>
+            </div>
+            <Footer />
         </>
     )
 }
