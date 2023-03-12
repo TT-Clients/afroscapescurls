@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 import TopNav from '../components/TopNav'
+import Footer from '../components/Footer'
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate()
@@ -48,7 +49,7 @@ const AboutPage: React.FC = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <div className="row text-center">
+                    <div className="row text-center mt-4">
                         <div className="col-md-4">
                             <span className="fa-stack fa-4x">
                                 <i className="fas fa-circle fa-stack-2x text-gray"></i>
@@ -87,7 +88,7 @@ const AboutPage: React.FC = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mt-4">
                          <div className="col">
                             <img src="img/Nukecon.jpg" className="rounded img-thumbnail" alt="..." />
                             </div>
@@ -97,7 +98,7 @@ const AboutPage: React.FC = () => {
 
 
                     </div>
-                    <div className="row">
+                    <div className="row mt-4">
                         {valuesArr.map((value, idx) => (
                             <div className="col-md-3" style={{ textAlign: 'center' }} key={idx}>
                                 <div>
@@ -113,6 +114,7 @@ const AboutPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }
