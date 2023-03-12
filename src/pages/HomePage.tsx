@@ -3,26 +3,25 @@ import DateDisplay from '../components/DateDisplay'
 import TopNav from '../components/TopNav'
 import Hero from '../components/Hero'
 import About from '../components/About'
-import Business from '../components/Business'
+import Events from '../components/Events'
 import Speaking from '../components/Speaking'
-import Property from '../components/Property'
+import Photos from '../components/Photos'
 import Testimonials from '../components/Testimonials'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
+import './topnav.css'
 
 const HomePage: React.FC = () => {
     return (
-        <body id="body" data-spy="scroll" data-target=".header">
+        <div>
             <TopNav title='The House of Afros, Capes & Curls'/>
             <Hero />
             <About />
-            <Business />
-            <Speaking />
-            <Property />
-            <Testimonials />
+            <Events />
+            <Photos />
             <Contact />
             <Footer />
-        </body>
+       </div>
     )
 }
 

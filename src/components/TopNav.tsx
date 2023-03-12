@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 
+
 type TopNavProps = {
   title: string
 }
@@ -11,10 +12,11 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
     return (
       <div>      
         <nav className="mainnav navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-          <div className="container flex-wrap">
+          <div className="container-fluid flex-wrap">
             <Link className="navbar-brand d-none d-sm-block" to="#page-top">
               <div style={{"display":"flex"}}>
-              <span>The House of Afros, Capes and Curls</span></div>
+               <div style={{fontSize:'26px'}}>The House of Afros, Capes and Curls</div>
+              </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
               aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,7 +29,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                 <li className="nav-item dropdown">
                   <Link className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" to={ROUTES.ABOUT_ROUTE}>About</Link>
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to={ROUTES.ABOUT_ROUTE}>About HOACC</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.ABOUT_ROUTE}>About The House</Link></li>
                     <li><Link className="dropdown-item" to={ROUTES.MEETTEAM_ROUTE}>Meet the Team</Link></li>
                   </ul>
                 </li>
@@ -38,36 +40,22 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                     Events
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Special Events</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Calendar of Events</Link></li>
                     <li><Link className="dropdown-item" to={ROUTES.SIGNATUREEVENTS_ROUTE}>Signature Events</Link></li>
                   </ul>
                 </li>
+                <li className="nav-item">
+                
+                </li>
               </ul>
+              <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
+       
+              <a href="http://" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
+              </span>
             </div>
           </div>
         </nav> 
-        <header className="container-fluid header">
-          <div className="row">
-            <div className="col-12 col-md-6">
-              <div className="col-left fade-in-text">
-                <div className="d-flex justify-content-center header-text"> {title} </div>
-                <div className="d-flex justify-content-center align-items-center">
-                  <img src="assets/img/HOACC.png" className="logo" />
-                </div>
-              </div>
-      
-            </div>
-            <div className="col-12 col-md-6">
-              <div className="d-flex justify-content-center">
-      
-                <div className="col-right">
-                  <img src="assets/img/header-img.png" alt="" srcSet="" />
-                </div>
-              </div>
-      
-            </div>
-          </div>
-        </header>
+        
       </div>
     )
 }

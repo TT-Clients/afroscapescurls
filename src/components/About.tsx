@@ -2,58 +2,58 @@ import React from 'react'
 import profile from '../images/profile.jpg'
 
 const About: React.FC = () => {
-    const title = 'Regional Vice President, National Sales and Account Management'
-
     return (
-        <div id="about">
-            <div className="container content-lg">
-                <div className="row">
-                    <div className="col-sm-5 sm-margin-b-60">
-                        <img className="full-width img-responsive" src="img/group.jpeg" alt="Image" />
-                        <img className="full-width img-responsive" src="img/speaker.png" alt="Image" />
-                        <img className="full-width img-responsive" src="img/onstage.JPG" alt="Image" />
+        <section className="page-section" id="services">
+            <div className="container">
+                <div className="text-center">
+                    <h2 className="section-heading text-uppercase">Our Mission</h2>
+                    <h3 className="section-subheading text-muted">
+                        The House of Afros, Capes & Curls is an organization whose goal is to connect people from diverse backgrounds and build a community
+                        based on a shared love of science fiction, fantasy, gaming, and Afrofuturism, while providing a safe space to explore the artistic
+                        literary and historic merits of geek culture.
+                    </h3>
+                </div>
+                <div className="row text-center">
+                    <div className="col-md-4">
+                        <span className="fa-stack fa-4x">
+                            <i className="fas fa-circle fa-stack-2x text-gray"></i>
+                            <i className="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 className="my-3">Who We Are</h4>
+                        <p className="text-muted">
+                            We are always looking for ways to build community, connect people, impact change, and create programming that generates a sense of
+                            community and belonging.
+                        </p>
                     </div>
-                    <div className="col-sm-7">
-                        <div className="section-seperator margin-b-50">
-                            <div className="margin-b-50">
-                                <div className="margin-b-30">
-                                    <h2>About Me</h2>
-                                    <p>
-                                        Courtney is currently the Vice President of Sales and Service for National Accounts. She leads the Group Insurance
-                                        National Accounts Sales and Service teams comprised of Directors, Account Managers, and Sales Assistants supporting
-                                        revenue, sales, persistency targets in the 5,000 lives and national group insurance market segment. She ensures the
-                                        teams deliver superior customer satisfaction and account management results to the largest and most complex group
-                                        insurance customers in the U.S. A market segment consisting of over 300 customers and book of business of $3.2B.
-                                        Courtney has been in the insurance industry for over 20 years.
-                                    </p>
-                                    <p>
-                                        Courtney is also the National Co-Director for the Black Leadership Forum at Prudential, the company’s largest and oldest
-                                        business resource group of over 2,000 members. In this role, she partners with senior leaders and key stakeholders
-                                        across the company to drive impactful and community-based engagement to enable and empower Black employees to advance in
-                                        their careers, cultivate allies in the work of inclusion, and contribute to market and community success.
-                                    </p>
-                                    <p>
-                                        Within the group insurance realm, she has held other leadership positions such as Assistant Vice President, of National
-                                        Accounts Services, in the South Customer Unit at MetLife. During her 6 years at MetLife, she also held other management
-                                        positions within National Accounts, including as a Client Services Manager and Client Services Director. Prior to
-                                        joining MetLife, Courtney worked for Mutual of Omaha Insurance and held various positions in the Claims and Contracts
-                                        departments, including a Client Representative, Premium Auditor and Supervisor in Group Premium Services.
-                                    </p>
-                                    <p>
-                                        Courtney serves on the YWCA Greater Charleston Chapter as the Executive Treasurer; she also serves on the non-profit
-                                        Charleston Teacher’s Supply Closet board and is a member of the Greater Charleston Chapter of the Links Inc. She has a
-                                        B.A. in psychology from the University of Nebraska at Omaha.
-                                    </p>
-                                </div>
-                                <a href="#" className="btn-theme btn-theme-md btn-default-bg text-uppercase">
-                                    Download my CV
-                                </a>
-                            </div>
-                        </div>
+                    <div className="col-md-4">
+                        <span className="fa-stack fa-4x">
+                            <i className="fas fa-circle fa-stack-2x text-gray"></i>
+                            <i className="fas fa-hand-spock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 className="my-3">Our Vision</h4>
+                        <p className="text-muted">
+                            The House was created as a vehicle for POC to build more inclusive environments to engage around seemingly non-traditional spaces
+                            such as gaming, comics, science fiction, media, and technology. We want to ensure that the representation of and consumption by POC
+                            is normalized rather than seen as an anomaly. We strive to increase representation for adults and youth of color, create programs
+                            that build community and create programming that generates a sense of belonging where the community as a whole can discuss pertinent
+                            and sensitive issues using science fiction, fantasy, comics, and games as a catalyst for conversation.
+                        </p>
+                    </div>
+                    <div className="col-md-4">
+                        <span className="fa-stack fa-4x">
+                            <i className="fas fa-circle fa-stack-2x text-gray"></i>
+                            <i className="fas fa-dice-d20 fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 className="my-3">What we do</h4>
+                        <p className="text-muted">
+                        We create space for community members of all backgrounds to
+            discuss sensitive issues using &quot;geek culture&quot; as the catalyst for
+            the conversation.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
