@@ -2,19 +2,19 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 
-const EducationPage: React.FC = () => {
+const SignatureEventsPage: React.FC = () => {
     const navigate = useNavigate()
 
     /**
      * Call this function to redirect the user to the homepage.
      */
     const redirectToHomePage = () => {
-        navigate(ROUTES.HOMEPAGE_ROUTE)
+        navigate(ROUTES.INTRO_ROUTE)
     }
 
     return (
         <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-            <h1 style={{ fontSize: '4em' }}>Education</h1>
+            <h1 style={{ fontSize: '4em' }}>Signature Events Page</h1>
             <span style={{ cursor: 'pointer' }} onClick={() => redirectToHomePage()}>
                 Homepage
             </span>
@@ -22,4 +22,4 @@ const EducationPage: React.FC = () => {
     )
 }
 
-export default EducationPage
+export default SignatureEventsPage

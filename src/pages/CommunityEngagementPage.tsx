@@ -9,7 +9,7 @@ const CommunityEngagementPage: React.FC = () => {
      * Call this function to redirect the user to the homepage.
      */
     const redirectToHomePage = () => {
-        navigate(ROUTES.HOMEPAGE_ROUTE)
+        navigate(ROUTES.INTRO_ROUTE)
     }
 
     return (
