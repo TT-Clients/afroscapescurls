@@ -38,7 +38,7 @@ The House uplifts artists, educators, nonprofits, and vendors  who are invested 
             <div className="row text-center">
                 <div className="col-md-12">
                     <div className="card" >
-                        <a href="https://www.youtube.com/@TheHouseLXN"><img src="img/lxn.png" style={{width:'100%'}}/></a>
+                        <a href="https://www.youtube.com/@TheHouseLXN"><img src="./img/lxn.png" style={{width:'100%'}}/></a>
                         <div className="card-body">
                             <h5 className="card-title">The League of Excellent/Extraordinary Negroes</h5>
                             <p className="card-text">Check out our youtube channel</p>
@@ -62,7 +62,7 @@ The House uplifts artists, educators, nonprofits, and vendors  who are invested 
                 <div className="col-md-8 mt-2">
 
                     <div className="card" style={{width: "100%"}}>
-                   <img src="img/Twitch-logo.png" alt=""  />     <div className="card-body">
+                   <img src="./img/Twitch-logo.png" alt=""  />     <div className="card-body">
                             <h5 className="card-title">Watch us on Twitch</h5>
                             <p className="card-text">Check out our upcoming streams!</p>
                             <a href="https://www.twitch.tv/thehouseofafroscapescurls/videos" className="btn btn-primary">To Twitch!</a>

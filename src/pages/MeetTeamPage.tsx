@@ -24,7 +24,7 @@ const MeetTeamPage: React.FC = () => {
                 </span>
             </div>
             <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="img/lxn.png" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+                <img src="./img/lxn.png" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
             <section className="" style={{ padding: '0', margin: 0 }}>
                 <div className="container-fluid">
@@ -41,7 +41,7 @@ const MeetTeamPage: React.FC = () => {
                     <div className="row">
                         <div className="col">
                             <div className="card">
-                                <img src="img/team/jade.jpg" className="card-img-top" alt="..." />
+                                <img src="./img/team/jade.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Jade Rogers</h5>
                                     <input type="checkbox" id="jade" />
@@ -69,7 +69,7 @@ const MeetTeamPage: React.FC = () => {
                                 </div>
                             </div>
                             {/* <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/team/Carla Stillwell.png" className="card-img-top" alt="..." />
+                                <img src="./img/team/Carla Stillwell.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Carla Stillwell</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -78,7 +78,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Victoria Jones</h5>
                                     <input type="checkbox" id="jade" />
@@ -95,7 +95,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/team/Nik Whitcomb.JPG" className="card-img-top" alt="..." />
+                                <img src="./img/team/Nik Whitcomb.JPG" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Nik Whitcomb</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -107,7 +107,7 @@ const MeetTeamPage: React.FC = () => {
                         <h2>Board</h2>
                         <div className="col">
                             <div className="card" >
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Wayne Brown, Esq.,</h5>
                                     <p className="card-text">Wayne Brown is Vice President of Programs for the Urban League of Nebraska. A native of Omaha, Wayne joined the Army after graduating from Benson High School. After an exciting ten years in the service, he graduated magna cum laude from East Tennessee State University. In 2009, he graduated from Creighton Law School. He has served the Omaha community in a variety of non-profit capacities, from Chief Career Officer of the Avenue Scholars Foundation to Vice President of the Omaha Community Foundation. In his spare time Wayne enjoys biking, reading comic books and mentoring his three daughters in the ways of the force.</p>
@@ -116,7 +116,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" >
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Katrina Adams</h5>
                                     <p className="card-text">Katrina Adams is the Community Investment Program Manager at the Omaha Community Foundation. Ms. Adams facilitates the Foundation’s resident-led grant making programs; serving as a conduit between nonprofit organizations, community members, and the generous supporters that make these programs possible. She is passionate about advocating for nonprofits, especially those working with and alongside communities of color and underrepresented populations. Ms. Adams believes there is something intrinsic that connects us all. As a servant-leader, this perspective is the foundation on which she builds relationships within the Omaha-metro’s diverse, intersectional community.</p>
@@ -125,7 +125,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" >
-                                <img src="img/team/Julia Parker.JPG" className="card-img-top" alt="..." />
+                                <img src="./img/team/Julia Parker.JPG" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Julia Parker</h5>
                                     <p className="card-text">Julia Parker just recently began an MBA program in Business at Boston University in Boston, Massachusetts. Prior to leaving Omaha, she was the Executive Director of the Omaha Small Business Network (OSBN), an Omaha-based nonprofit whose mission is to assist historically undercapitalized entrepreneurs achieve financial inclusion. Prior to this role, Ms. Parker was the Director of Operations and Communications at Building Bright Futures for six years. Her connections within the community and lived-experience as a black female business owner were the catalyst that led her to become an advocate for underserved, local entrepreneurs and nonprofits; providing the tools needed to become successful and sustainable entities. Ms. Parker believes community-based micro-lenders, to provide access to proven pathways for success, thus resulting in community and economic development.</p>
@@ -134,7 +134,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Jessica Ehule MS, MSPH</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -143,7 +143,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" >
-                                <img src="img/team/RachelGrossman.JPG" className="card-img-top" alt="..." />
+                                <img src="./img/team/RachelGrossman.JPG" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Rachel Grossman</h5>
                                     <input type="checkbox" id="expanded" />
@@ -165,7 +165,7 @@ const MeetTeamPage: React.FC = () => {
                         <h2>Advisory Council</h2>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Denise Chapman</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -174,7 +174,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Kelly Coble</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -183,7 +183,7 @@ const MeetTeamPage: React.FC = () => {
                         </div>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/team/Miklos Fitch.jpg" className="card-img-top" alt="..." />
+                                <img src="./img/team/Miklos Fitch.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Mik & Starla Fitch</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -193,7 +193,7 @@ const MeetTeamPage: React.FC = () => {
                        
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/team/Stephanie Tyrance.jpg" className="card-img-top" alt="..." />
+                                <img src="./img/team/Stephanie Tyrance.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Stephanie Tyrance</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -202,7 +202,7 @@ const MeetTeamPage: React.FC = () => {
                         </div> 
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="img/HOACC.png" className="card-img-top" alt="..." />
+                                <img src="./img/HOACC.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Nancy Williams</h5>
                                     <p className="card-text">More Info Coming Soon</p>

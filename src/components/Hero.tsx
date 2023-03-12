@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from '../images/profile.jpg'
 
 const Hero: React.FC = () => {
 
@@ -10,11 +9,11 @@ const Hero: React.FC = () => {
                 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active d-flex justify-content-around" data-bs-interval="5000">
-                                <img src="img/HOACC.png" className="d-block" alt="..." />
-                                <img src="img/header-img.png" className="d-block " alt="..." />
+                                <img src="./img/HOACC.png" className="d-block" alt="..." />
+                                <img src="./img/header-img.png" className="d-block " alt="..." />
                             </div>
                             <div className="carousel-item d-flex justify-content-center" data-bs-interval="5000">
-                              {/* <img src="img/games.jpg" className="d-block" alt="" /> */}
+                              {/* <img src="./img/games.jpg" className="d-block" alt="" /> */}
                             </div>
                         
                         </div>

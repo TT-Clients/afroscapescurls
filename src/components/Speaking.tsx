@@ -16,7 +16,7 @@ const Speaking: React.FC = () => {
                     <div className="col-sm-6">
                         <div className="margin-b-20">
                             <div className="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img className="img-responsive" src="img/event.jpg" alt="Latest Products Image" />
+                                <img className="img-responsive" src="./img/event.jpg" alt="Latest Products Image" />
                             </div>
                         </div>
                         <h4>
@@ -37,7 +37,7 @@ const Speaking: React.FC = () => {
                     <div className="col-sm-6 sm-margin-b-50">
                         <div className="margin-b-20">
                             <div className="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img className="img-responsive" src="img/queensconvene.jpg" alt="Queens Convene" />
+                                <img className="img-responsive" src="./img/queensconvene.jpg" alt="Queens Convene" />
                             </div>
                         </div>
                         <h4>
@@ -94,7 +94,7 @@ const Speaking: React.FC = () => {
                     <div className="col-sm-4 sm-margin-b-50">
                         <div className="margin-b-20">
                             <div className="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img className="img-responsive" src="img/hvb.jpeg" alt="Latest Products Image" />
+                                <img className="img-responsive" src="./img/hvb.jpeg" alt="Latest Products Image" />
                             </div>
                         </div>
                         <h4>
@@ -106,7 +106,7 @@ const Speaking: React.FC = () => {
                     <div className="col-sm-4 sm-margin-b-50">
                         <div className="margin-b-20">
                             <div className="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
-                                <img className="img-responsive" src="img/51828.jpeg" alt="Latest Products Image" />
+                                <img className="img-responsive" src="./img/51828.jpeg" alt="Latest Products Image" />
                             </div>
                         </div>
                         <h4>

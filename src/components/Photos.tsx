@@ -22,15 +22,15 @@ const Photos: React.FC = () => {
                  <div className="row">
                     <div className="col-md-4">
                         <div className="thumbnail">
-                            <a href="assets/img/games.jpg">
-                                <img src="img/gamestack.jpg" alt="Nature" style={{ width: '100%' }} />
+                            <a href="assets/./img/games.jpg">
+                                <img src="./img/gamestack.jpg" alt="Nature" style={{ width: '100%' }} />
                             </a>
                         </div>
                     </div>
                     <div className="col-md-4">
                         <div className="thumbnail">
-                            <a href="img/play.jpg">
-                                <img src="img/play.jpg" alt="Fjords" style={{ width: '100%' }} />
+                            <a href="./img/play.jpg">
+                                <img src="./img/play.jpg" alt="Fjords" style={{ width: '100%' }} />
                             </a>
                         </div>
                     </div>

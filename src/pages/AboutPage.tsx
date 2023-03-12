@@ -35,7 +35,7 @@ const AboutPage: React.FC = () => {
         <>
             <TopNav title="About" />
             <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="img/games2.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+                <img src="./img/games2.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
 
             <section className="" style={{ padding: '0', margin: 0 }}>
@@ -90,10 +90,10 @@ const AboutPage: React.FC = () => {
                     </div>
                     <div className="row mt-4">
                          <div className="col">
-                            <img src="img/Nukecon.jpg" className="rounded img-thumbnail" alt="..." />
+                            <img src="./img/Nukecon.jpg" className="rounded img-thumbnail" alt="..." />
                             </div>
                             <div className="col">
-                                <img src="img/afrocon1.jpg" className="rounded img-thumbnail" alt="..." />
+                                <img src="./img/afrocon1.jpg" className="rounded img-thumbnail" alt="..." />
                             </div>
 
 

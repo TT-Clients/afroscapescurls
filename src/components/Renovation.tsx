@@ -6,7 +6,7 @@ const Renovation: React.FC = () => {
 
     return (
         <div id="hr" className="promo-banner parallax-window" data-parallax="scroll"
-    data-image-src="img/pexels-rene-asmussen-3990359.jpg">
+    data-image-src="./img/pexels-rene-asmussen-3990359.jpg">
     <div className="container-sm content-lg">
       <h2 className="promo-banner-title">Home Renovation</h2>
       <div style={{display:'flex', justifyContent: 'center'}}>
