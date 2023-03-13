@@ -19,14 +19,12 @@ const SignatureEventsPage: React.FC = () => {
             <TopNav title='Signature Events' />
             <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                 <h1 style={{ fontSize: '4em' }}>Signature Events</h1>
-                <span style={{ cursor: 'pointer' }} onClick={() => redirectToHomePage()}>
-                    Homepage
-                </span>
+            
             </div>
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div className="text-center mt-1" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
+                        <div className="text-center mt-4" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
                             <h1 className="text-uppercase">Signature Events</h1>
                             <p></p>
                         </div>

@@ -17,15 +17,27 @@ const EducationPage: React.FC = () => {
         <>
             <TopNav title="Education" />
             <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="./img/games2.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+                <img src="./img/play.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
+            {/* <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+                <h1 style={{ fontSize: '4em' }}>Education</h1>
+            
+            </div> */}
 
-            <section className="page-section" id="services">
+            <section className="" id="services" style={{padding:0}}>
+            <div className="container-fluid" style={{ padding: 0, margin: 0 }}>
+                    <div className="row" style={{ padding: 0, margin: 0 }}>
+                        <div className="col" style={{ padding: 0, margin: 0 }}>
+                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-orange)', color: 'black' }}>
+                                <h1 className="text-uppercase">Education</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="container">
                     <div className="row">
                         <div className="col">
                             <div className="text-center">
-                                <h1 className="section-heading text-uppercase">Education</h1>
                                 <h3 className="section-subheading">
                                     Businesses and fellow foundations have given their time and support to help us make a difference in children&apos;s lives.
                                 </h3>
