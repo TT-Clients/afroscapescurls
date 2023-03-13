@@ -55,16 +55,21 @@ input[type=checkbox] {
     display: none;
   }
   
-
+  .main-img-margin{
+    margin-left:200px;
+  }
 
 @media all and (max-width: 600px) {
     .header-text{
         margin-left: 0;
+    }
+    .main-img-margin{
+      margin-left:0px;
     }
     
   }
 
 
   .top-image{
-    height:500px;
+    height:616px;
   }

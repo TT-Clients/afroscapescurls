@@ -15,6 +15,7 @@ const About: React.FC = () => {
                 </div>
                 <div className="row text-center">
                     <div className="col-md-4">
+            
                         <span className="fa-stack fa-4x">
                             <i className="fas fa-circle fa-stack-2x text-gray"></i>
                             <i className="fas fa-gamepad fa-stack-1x fa-inverse"></i>

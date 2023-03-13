@@ -3,17 +3,25 @@ import React from 'react'
 const Hero: React.FC = () => {
 
     return (
-        <header className="container-fluid header">
-            <div className="row">
-                <div className="col">
-                <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
+        <header className="container-fluid header">           
+                      
+             <div className="row d-flex justify-content-center">
+             
+                <div className="col-sm-12 col-md-6 d-flex justify-content-around">
+                <img src="./img/HOACC.png" className="d-block img-fluid mr-5 main-img-margin" />
+                </div>
+                <div className="col-sm-12 col-md-6">
+                                <img src="./img/header-img.png" className="d-block img-fluid main-img-margin"/>
+                     </div>
+            </div>
+                {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active d-flex justify-content-around" data-bs-interval="5000">
                                 <img src="./img/HOACC.png" className="d-block" alt="..." />
                                 <img src="./img/header-img.png" className="d-block " alt="..." />
                             </div>
                             <div className="carousel-item d-flex justify-content-center" data-bs-interval="5000">
-                              {/* <img src="./img/games.jpg" className="d-block" alt="" /> */}
+                            
                             </div>
                         
                         </div>
@@ -26,8 +34,8 @@ const Hero: React.FC = () => {
                             <span className="visually-hidden">Next</span>
                         </button>
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div>*/}
             
         </header>
     )
