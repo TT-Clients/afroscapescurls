@@ -15,7 +15,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
           <div className="container-fluid flex-wrap">
             <Link className="navbar-brand d-none d-sm-block" to="#page-top">
               <div style={{"display":"flex"}}>
-               <div style={{fontSize:'26px'}}>The House of Afros, Capes and Curls</div>
+               <div style={{fontSize:'22px'}}>The House of Afros, Capes and Curls</div>
               </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"

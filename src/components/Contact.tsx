@@ -2,7 +2,9 @@ import React from 'react'
 import profile from '../images/profile.jpg'
 
 const Contact: React.FC = () => {
-  
+    
+    const obj={}
+
     return (
         <section className="page-section" id="contact">
             <div className="container">
