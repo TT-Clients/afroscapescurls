@@ -1,3 +1,18 @@
+:root {
+  /*HOACC THEME*/
+  --hoacc-white: #fff;
+  --hoacc-pink: #fcbbbb;
+  --hoacc-orange: #ffe1c2;
+  --hoacc-yellow: #fff7bf;
+  --hoacc-teal: #b4fdfd;
+  --hoacc-light-blue: #c6eafe;
+  --hoacc-blue: #99dbff;
+  --hoacc-gray: #bfbfbf;
+}
+
+a{
+  color:var(--hoacc-teal)
+}
 body{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -22,6 +37,30 @@ body{
 
 #services{
     /*background-color: #FFF;*/
+}
+
+#photos{
+  background-color: var(--hoacc-pink) !important;
+}
+.ed-header-images{
+  width:25% !important;
+}
+#policies{
+  background-color: var(--hoacc-orange) !important;
+}
+.about-btn{
+  background-color: var(--hoacc-blue);
+  color:#000;
+  border: 1px solid var(--hoacc-blue);
+}
+ .about-btn:focus {
+  background-color: var(--hoacc-blue);
+  color:#000;
+  border: 1px solid var(--hoacc-blue);
+  /* box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5); */
+}
+#footer{
+  background-color: var(--hoacc-blue) !important;
 }
 
 #about{
@@ -62,6 +101,11 @@ input[type=checkbox] {
   .team-img-size{
     height:200px;
   }
+  
+  section#contact form#contactForm .form-group input, section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+    border: none;
+}
 
 @media all and (max-width: 600px) {
     .header-text{

@@ -62,6 +62,11 @@ input[type=checkbox] {
   .team-img-size{
     height:200px;
   }
+  
+  section#contact form#contactForm .form-group input, section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+    border: none;
+}
 
 @media all and (max-width: 600px) {
     .header-text{

@@ -44,8 +44,8 @@ const AboutPage: React.FC = () => {
                 <div className="container-fluid" style={{padding:0, margin:0}}>
                     <div className="row" style={{padding:0, margin:0}}>
                         <div className="col" style={{padding:0, margin:0}}>
-                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-orange)', color: 'black' }}>
-                                <h1 className="text-uppercase">About the house</h1>
+                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-teal)', color: 'black' }}>
+                                <h1 className="text-uppercase py-3">About the house</h1>
                             </div>
                         </div>
                     </div>

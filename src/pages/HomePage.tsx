@@ -7,6 +7,8 @@ import Photos from '../components/Photos'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 import './topnav.css'
+import Policies from '../components/Policies'
+import Donate from '../components/Donate'
 
 const HomePage: React.FC = () => {
     return (
@@ -16,6 +18,8 @@ const HomePage: React.FC = () => {
             <About />
             <Events />
             <Photos />
+            <Donate />
+            <Policies/>
             <Contact />
             <Footer />
        </div>

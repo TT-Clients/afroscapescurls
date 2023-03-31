@@ -17,7 +17,11 @@ const EducationPage: React.FC = () => {
         <>
             <TopNav title="Education" />
             <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="./img/play.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+                <img src="./img/play.jpg" className="img-fluid w-100 p-0 m-0 top-image ed-header-images" alt="Patience" style={{width:'25% !important'}} />
+                   <img src="./img/kids/notes.jpg" className="img-fluid w-100 p-0 m-0 top-image ed-header-images" alt="Patience" style={{width:'25% !important'}}/> 
+                   <img src="./img/kids/smilecomp.jpg" className="img-fluid w-100 p-0 m-0 top-image ed-header-images" alt="Patience" style={{width:'25% !important'}}/> 
+                  <img src="./img/kids/kidspainting.jpg" className="img-fluid w-100 p-0 m-0 top-image ed-header-images" alt="Patience" style={{width:'25% !important'}}/>             
+              
             </div>
             {/* <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                 <h1 style={{ fontSize: '4em' }}>Education</h1>
@@ -28,13 +32,13 @@ const EducationPage: React.FC = () => {
             <div className="container-fluid" style={{ padding: 0, margin: 0 }}>
                     <div className="row" style={{ padding: 0, margin: 0 }}>
                         <div className="col" style={{ padding: 0, margin: 0 }}>
-                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-orange)', color: 'black' }}>
-                                <h1 className="text-uppercase">Education</h1>
+                        <div className="text-center" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
+                                <h1 className="text-uppercase py-3">Education</h1>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container mt-5">
                     <div className="row">
                         <div className="col">
                             <div className="text-center">
@@ -44,24 +48,24 @@ const EducationPage: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mt-5">
                         <div className="col">
-                            <h2>The House Community School</h2>
+                            <h2 className="text-center">The House Community School</h2>
                             <div className="card" style={{ width: '18rem;' }}>
                                 <img src="./img/history.jpeg" className="card-img-top" />
-                                <div className="card-body">
-                                    <h5 className="card-title">The 1619 Project: A New Origin Story</h5>
+                                <div className="card-body" style={{backgroundColor:'#000', color:'#FFF'}}>
+                                    <h5 className="card-title text-center">The 1619 Project: A New Origin Story</h5>
                                     <p className="card-text">The 1619 Project: A New Origin Story by Nikole Hannah-Jones was released in November. The House Community School hosts monthly discussion sessions for each section of the book. Please RSVP on our community calendar.</p>
                                  
                                 </div>
                             </div>
                         </div>
                         <div className="col">
-                            <h2>Young History Detectives</h2>
+                            <h2 className="text-center">Young History Detectives</h2>
                             <div className="card" style={{ width: '18rem;' }}>
                                 <a href="www.theyhd.com"><img src="./img/yhd2.png" className="card-img-top" /></a>
-                                <div className="card-body">
-                                    <h5 className="card-title"> <a href="www.theyhd.com">Young History Detectives</a></h5>
+                                <div className="card-body" style={{backgroundColor:'#000', color:'#FFF'}}>
+                                    <h5 className="card-title text-center"> <a href="www.theyhd.com">Young History Detectives</a></h5>
                                     <p className="card-text">The Young History Detectives learn Black History, both regional, national, and across the African Diaspora along with historical research methods to better understand US History.
                                     <br/>
                                     <a href="https://form.jotform.com/jrlrogers/young-history-detectives-2023-sprin">Young History Detectives Registration 2023</a></p>

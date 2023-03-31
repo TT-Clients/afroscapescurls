@@ -1,8 +1,38 @@
-import React from 'react'
+import React, { useState } from 'react'
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 import profile from '../images/profile.jpg'
+import emailjs from '@emailjs/browser'
 
 const Contact: React.FC = () => {
-  
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [phone, setPhone] = useState('')
+    const [message, setMessage] = useState('')
+    const [submitted, setSubmitted] = useState(false)
+    emailjs.init('user_5aNeYLvMcIJvX8yXbk5tx')
+    //info@afroscapescurls.org
+    const handleSubmit = (event: any) => {
+        event.preventDefault()
+        console.log(name, email, phone, message)
+        const formData = new FormData()
+
+        const serviceID = 'default_service'
+        const templateID = 'template_183Hqqzf'
+        emailjs.send(serviceID, templateID, { name, email, phone, message }).then(
+            () => {
+                setName('');
+                setEmail('');
+                setPhone('')
+                setMessage('')
+            },
+            (err) => {
+                //btn.value = 'Send Email';
+                alert(JSON.stringify(err))
+            }
+        )
+    }
+
     return (
         <section className="page-section" id="contact">
             <div className="container">
@@ -10,17 +40,35 @@ const Contact: React.FC = () => {
                     <h2 className="section-heading text-uppercase">Contact Us</h2>
                     <h3 className="section-subheading text-muted">Reach out to the house!</h3>
                 </div>
-                <form id="contactForm">
+                <form id="contactForm" onSubmit={handleSubmit}>
                     <div className="row align-items-stretch mb-5">
                         <div className="col-md-6">
                             <div className="form-group">
-                                <input className="form-control" name="from_name" id="name" type="text" placeholder="Your Name *" required />
+                                <input
+                                    className="form-control"
+                                    value={name}
+                                    onChange={(e) => setName(e.target.value)}
+                                    name="from_name"
+                                    id="name"
+                                    type="text"
+                                    placeholder="Your Name *"
+                                    required
+                                />
                                 <div className="invalid-feedback" data-sb-feedback="name:required">
                                     A name is required.
                                 </div>
                             </div>
                             <div className="form-group">
-                                <input className="form-control" name="reply_to" id="email" type="email" placeholder="Your Email *" required />
+                                <input
+                                    className="form-control"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    name="reply_to"
+                                    id="email"
+                                    type="email"
+                                    placeholder="Your Email *"
+                                    required
+                                />
                                 <div className="invalid-feedback" data-sb-feedback="email:required">
                                     An email is required.
                                 </div>
@@ -29,7 +77,19 @@ const Contact: React.FC = () => {
                                 </div>
                             </div>
                             <div className="form-group mb-md-0">
-                                <input className="form-control" id="phone" name="phone" type="tel" placeholder="Your Phone" />
+                                {/* <input className="form-control" value={phone} onChange={(e)=>setPhone(e.target.value)}  id="phone" name="phone" type="tel" placeholder="Your Phone" /> */}
+
+                                <PhoneInput
+                                    defaultCountry="US"
+                                    useNationalFormatForDefaultCountryValue="true"
+                                    className="form-control"
+                                    placeholder="Enter phone number"
+                                    value={phone}
+                                    onChange={(val) => {
+                                        const phoneNum: string = val ? val : ''
+                                        setPhone(phoneNum)
+                                    }}
+                                />
                                 <div className="invalid-feedback" data-sb-feedback="phone:required">
                                     A phone number is required.
                                 </div>
@@ -43,6 +103,8 @@ const Contact: React.FC = () => {
                                     name="message"
                                     placeholder="Your Message *"
                                     data-sb-validations="required"
+                                    value={message}
+                                    onChange={(e) => setMessage(e.target.value)}
                                 ></textarea>
                                 <div className="invalid-feedback" data-sb-feedback="message:required">
                                     A message is required.
@@ -63,7 +125,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div className="text-center">
                         <button className="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">
-                            Send Message
+                            {submitted ? 'Message Sent!' : 'Send Message'}
                         </button>
                     </div>
                 </form>
