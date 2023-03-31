@@ -33,6 +33,7 @@ const Contact: React.FC = () => {
         )
     }
 
+
     return (
         <section className="page-section" id="contact">
             <div className="container">
