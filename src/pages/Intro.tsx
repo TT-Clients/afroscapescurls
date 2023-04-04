@@ -22,10 +22,10 @@ const Intro: React.FC = () => {
                 <div className="col-right">
                     <Link to="/home"><img className="fade-in-door" src="./img/door.png" alt="" srcSet="" /></Link>
                     <div className="typewriter">
-                      <h3>You May Enter</h3>
+                      <h3>&quot;Speak Friend and Enter&quot;</h3>
                     </div>
                   </div>
-            </div>
+            </div>+
 
         </div>
         </div>

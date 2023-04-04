@@ -24,10 +24,10 @@ const Footer: React.FC = () => {
                         </a>
                     </div>
                     <div className="col-lg-4 text-lg-end">
-                        <a className="link-dark text-decoration-none me-3" href="#!">
+                        <a className="text-decoration-none me-3" href="#!">
                             Privacy Policy
                         </a>
-                        <a className="link-dark text-decoration-none" href="#!">
+                        <a className="text-decoration-none" href="#!">
                             Terms of Use
                         </a>
                     </div>

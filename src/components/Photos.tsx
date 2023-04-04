@@ -13,7 +13,7 @@ const Photos: React.FC = () => {
                                 <br /> March 20th 2023!
                             </h2>
                             <div>
-                                <a href="https://checkout.square.site/buy/M6MQRQ7IF4I6M5IUV3AS6ULJ" className="btn btn-danger mb-3">
+                                <a href="https://checkout.square.site/buy/M6MQRQ7IF4I6M5IUV3AS6ULJ" rel="noreferrer" target="_blank" className="btn btn-danger mb-3">
                                     Order yours today!
                                 </a>
                             </div>

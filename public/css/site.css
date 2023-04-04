@@ -44,7 +44,13 @@ body{
 }
 .ed-header-images{
   width:25% !important;
+  display: flex;
 }
+
+.ed-header{
+  flex-direction: row;
+}
+
 #policies{
   background-color: var(--hoacc-orange) !important;
 }
@@ -60,7 +66,8 @@ body{
   /* box-shadow: 0 0 0 0.25rem rgba(255, 208, 38, 0.5); */
 }
 #footer{
-  background-color: var(--hoacc-blue) !important;
+  background-color: #000 !important;
+  color: #fff;
 }
 
 #about{
@@ -113,6 +120,14 @@ input[type=checkbox] {
     }
     .main-img-margin{
       margin-left:0px;
+    }
+    .ed-header{
+      display: flex;
+      flex-direction: column;
+    }
+    .ed-header .ed-header-images{
+      width:100% !important;
+      height:200px;
     }
     
   }

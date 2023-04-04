@@ -79,10 +79,7 @@ Despite being a terrible speller, she loves Quiddler.`
     return (
         <>
             <TopNav title="Meet the Team" />
-            <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                <h1 style={{ fontSize: '4em' }}>Meet the Team</h1>
-            </div>
-            <div className="container-fluid w-100 h-auto m-0 p-0">
+            <div className="container-fluid w-100 h-auto mt-5 p-0">
                 <img src="./img/lxn.png" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
             <section className="" style={{ padding: '0', margin: 0 }}>

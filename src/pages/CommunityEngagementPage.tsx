@@ -25,6 +25,7 @@ const CommunityEngagementPage: React.FC = () => {
                         <div className="col" style={{ padding: 0, margin: 0 }}>
                         <div className="text-center" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
                                 <h1 className="text-uppercase py-3">Community Engagement</h1>
+                               
                             </div>
                         </div>
                     </div>
@@ -54,9 +55,11 @@ const CommunityEngagementPage: React.FC = () => {
                                 </a>
                                 <div className="card-body">
                                     <h5 className="card-title">The League of Excellent/Extraordinary Negroes</h5>
-                                    <p className="card-text">Check out our youtube channel</p>
+                                    <p className="card-text">
+                                    The League of Excellent\Extraordinary Negroes (LXN) Is our weekly podcast on our YouTube channel offers panel discussions and reviews for tv, movies and documentaries from Black perspectives. The Young League are the tween and teen participants of the Young History Detectives, that discuss movies, tv and games from a unique lens. 
+                                    </p>
                                     <a href="https://www.youtube.com/@TheHouseLXN" target="_blank" rel="noreferrer" className="btn btn-primary btn-lg about-btn">
-                                        Check us out
+                                        Check out our Youtube Channel
                                     </a>
                                 </div>
                             </div>
@@ -73,7 +76,7 @@ const CommunityEngagementPage: React.FC = () => {
                                     <h5 className="card-title">Join us on Discord</h5>
                                     <p className="card-text">We have a growing community.</p>
                                     <a href="https://discord.gg/EhWcvQWBu6" target="_blank" rel="noreferrer" className="btn btn-primary  btn-lg about-btn">
-                                        To Discord!
+                                        Join our Discord!
                                     </a>
                                 </div>
                             </div>
@@ -85,7 +88,7 @@ const CommunityEngagementPage: React.FC = () => {
                                     <h5 className="card-title">Watch us on Twitch</h5>
                                     <p className="card-text">Check out our upcoming streams!</p>
                                     <a href="https://www.twitch.tv/thehouseofafroscapescurls/videos" className="btn btn-primary  btn-lg about-btn">
-                                        To Twitch!
+                                        Watch us on Twitch!
                                     </a>
                                 </div>
                             </div>
