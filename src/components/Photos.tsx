@@ -17,8 +17,15 @@ const Photos: React.FC = () => {
                                     Order yours today!
                                 </a>
                             </div>
-
-                            <img src="./img/steampunk.jpg" alt="" className="img-fluid" style={{ width: '400px' }} />
+                            <div className="row">
+                                <div className="col"><img src="./img/steampunk.jpg" alt="" className="img-fluid" style={{ width: '400px' }} /></div>
+   
+                            </div>
+                            <div className="row mt-3">
+                                <div className="col"><img src="./img/2023Steampunk.png" alt="" className="img-fluid" style={{ width: '400px' }} /></div>
+                               
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
