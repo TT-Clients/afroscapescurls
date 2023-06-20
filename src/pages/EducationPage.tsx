@@ -59,9 +59,9 @@ const EducationPage: React.FC = () => {
                         <div className="col">
                             <h2>Young History Detectives</h2>
                             <div className="card" style={{ width: '18rem;' }}>
-                                <a href="www.theyhd.com"><img src="./img/yhd2.png" className="card-img-top" /></a>
+                                <a href="http://www.theyhd.com"><img src="./img/yhd2.png" className="card-img-top" /></a>
                                 <div className="card-body">
-                                    <h5 className="card-title"> <a href="www.theyhd.com">Young History Detectives</a></h5>
+                                    <h5 className="card-title"> <a href="http://www.theyhd.com">Young History Detectives</a></h5>
                                     <p className="card-text">The Young History Detectives learn Black History, both regional, national, and across the African Diaspora along with historical research methods to better understand US History.
                                     <br/>
                                     <a href="https://form.jotform.com/jrlrogers/young-history-detectives-2023-sprin">Young History Detectives Registration 2023</a></p>
