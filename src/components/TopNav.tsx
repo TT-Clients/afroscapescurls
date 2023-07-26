@@ -15,7 +15,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
           <div className="container-fluid flex-wrap">
             <Link className="navbar-brand d-none d-sm-block" to="#page-top">
               <div style={{"display":"flex"}}>
-               <div style={{fontSize:'26px'}}>The House of Afros, Capes and Curls</div>
+               <div style={{fontSize:'22px'}}>The House of Afros, Capes and Curls</div>
               </div>
             </Link>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
@@ -40,7 +40,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                     Events
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Calendar of Events</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Event Calendar</Link></li>
                     <li><Link className="dropdown-item" to={ROUTES.SIGNATUREEVENTS_ROUTE}>Signature Events</Link></li>
                   </ul>
                 </li>
@@ -50,7 +50,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
               </ul>
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
        
-              <a href="#photos" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
+              <a href="home#donate" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
               </span>
             </div>
           </div>

@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 import TopNav from '../components/TopNav'
 import Footer from '../components/Footer'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faAtom, faComments, faUserGraduate,faChartBar,faMedal,faLightbulb,faStar } from '@fortawesome/free-solid-svg-icons'
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate()
@@ -17,18 +19,18 @@ const AboutPage: React.FC = () => {
         {
             title: 'Authenticity',
             description: 'We are blerds and nerds',
-            icon: 'fa-atom'
+            icon: 'fas fa-atom fa-stack-1x fa-inverse'
         },
-        { title: 'Connection', description: "We will leverage our community's collective genius to build and empower others", icon: 'fa-comments' },
-        { title: 'Growth', description: 'We value learning, knowledge and learning for life', icon: 'fa-user-graduate' },
-        { title: 'Impact', description: 'We chart our impact to improve and advance our work', icon: 'fa-chart-bar' },
+        { title: 'Connection', description: "We will leverage our community's collective genius to build and empower others", icon: 'fas fa-comments fa-stack-1x fa-inverse' },
+        { title: 'Growth', description: 'We value learning, knowledge and learning for life', icon: 'fas fa-user-graduate fa-stack-1x fa-inverse' },
+        { title: 'Impact', description: 'We chart our impact to improve and advance our work', icon: 'fas fa-chart-bar fa-stack-1x fa-inverse' },
         {
             title: 'Equity',
             description: 'We see the beauty in our differences and recognize the power in supporting the community in any way it needs.',
-            icon: 'fa-medal'
+            icon: 'fas fa-medal fa-stack-1x fa-inverse'
         },
-        { title: 'Innovation', description: 'We believe in the power of change and adaptability', icon: 'fa-lightbulb' },
-        { title: 'Joy', description: 'We create safe spaces that empower, engage and inspire others', icon: 'fa-star' }
+        { title: 'Innovation', description: 'We believe in the power of change and adaptability', icon: 'fas fa-lightbulb fa-stack-1x fa-inverse' },
+        { title: 'Joy', description: 'We create safe spaces that empower, engage and inspire others', icon: 'fas fa-star fa-stack-1x fa-inverse' }
     ]
 
     return (
@@ -37,13 +39,13 @@ const AboutPage: React.FC = () => {
             <div className="container-fluid w-100 h-auto m-0 p-0">
                 <img src="./img/games2.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
-
+           
             <section className="" style={{ padding: '0', margin: 0 }}>
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col">
-                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-orange)', color: 'black' }}>
-                                <h1 className="text-uppercase">About the house</h1>
+                <div className="container-fluid" style={{padding:0, margin:0}}>
+                    <div className="row" style={{padding:0, margin:0}}>
+                        <div className="col" style={{padding:0, margin:0}}>
+                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-teal)', color: 'black' }}>
+                                <h1 className="text-uppercase py-3">About the house</h1>
                             </div>
                         </div>
                     </div>
@@ -102,12 +104,13 @@ const AboutPage: React.FC = () => {
                         {valuesArr.map((value, idx) => (
                             <div className="col-md-3" style={{ textAlign: 'center' }} key={idx}>
                                 <div>
+                                {/* <FontAwesomeIcon icon={['fab', value.icon]} /> */}
                                     <span className="fa-stack fa-2x my-2">
                                         <i className="fas fa-circle fa-stack-2x text-blue gradient"></i>
-                                        <i className="fas ${value.icon} fa-stack-1x fa-inverse"></i>
+                                        <i className={value.icon}></i>
                                     </span>
-                                    <h5>${value.title}</h5>
-                                    <p>${value.description}</p>
+                                    <h5>{value.title}</h5>
+                                    <p>{value.description}</p>
                                 </div>
                             </div>
                         ))}
