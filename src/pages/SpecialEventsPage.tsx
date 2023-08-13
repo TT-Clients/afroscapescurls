@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Footer from '../components/Footer'
 import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
+import GmaBanner from '../components/GmaBanner'
 
 const SpecialEventsPage: React.FC = () => {
     const navigate = useNavigate()
@@ -36,6 +37,11 @@ const SpecialEventsPage: React.FC = () => {
                         <div className="col">
                             <div data-tockify-component="calendar" data-tockify-calendar="the.house.events"></div>
                         </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <GmaBanner />
                     </div>
                 </div>
                 <Footer />

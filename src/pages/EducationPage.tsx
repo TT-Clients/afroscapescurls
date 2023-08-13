@@ -2,6 +2,8 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
+import GmaBanner from '../components/GmaBanner'
+import Footer from '../components/Footer'
 
 const EducationPage: React.FC = () => {
     const navigate = useNavigate()
@@ -119,6 +121,13 @@ const EducationPage: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <div className="row">
+                    <div className="col">
+                        <GmaBanner />
+                    </div>
+                </div>
+                
+            <Footer />
         </>
     )
 }

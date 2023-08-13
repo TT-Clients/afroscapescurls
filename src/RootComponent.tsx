@@ -11,6 +11,7 @@ import SignatureEventsPage from './pages/SignatureEventsPage'
 import SpecialEventsPage from './pages/SpecialEventsPage'
 import { ROUTES } from './resources/routes-constants'
 import './styles/main.sass'
+import Photos from './pages/Photos'
 
 const RootComponent: React.FC = () => {
     return (
@@ -24,6 +25,7 @@ const RootComponent: React.FC = () => {
                 <Route path={ROUTES.EDUCATION_ROUTE} element={<EducationPage />} />
                 <Route path={ROUTES.SPECIALEVENTS_ROUTE} element={<SpecialEventsPage />} />
                 <Route path={ROUTES.SIGNATUREEVENTS_ROUTE} element={<SignatureEventsPage />} />
+                <Route path={ROUTES.PHOTOS_ROUTE} element={<Photos />} />
                 <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </Router>

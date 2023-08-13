@@ -42,6 +42,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                   <ul className="dropdown-menu">
                     <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Event Calendar</Link></li>
                     <li><Link className="dropdown-item" to={ROUTES.SIGNATUREEVENTS_ROUTE}>Signature Events</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.PHOTOS_ROUTE}>Event Photos</Link></li>
                   </ul>
                 </li>
                 <li className="nav-item">

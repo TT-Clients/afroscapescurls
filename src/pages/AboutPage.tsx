@@ -5,6 +5,7 @@ import TopNav from '../components/TopNav'
 import Footer from '../components/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAtom, faComments, faUserGraduate,faChartBar,faMedal,faLightbulb,faStar } from '@fortawesome/free-solid-svg-icons'
+import GmaBanner from '../components/GmaBanner'
 
 const AboutPage: React.FC = () => {
     const navigate = useNavigate()
@@ -115,8 +116,14 @@ const AboutPage: React.FC = () => {
                             </div>
                         ))}
                     </div>
+                   
                 </div>
-            </section>
+            </section> 
+            <div className="row">
+                    <div className="col">
+                        <GmaBanner />
+                    </div>
+                </div>
             <Footer />
         </>
     )

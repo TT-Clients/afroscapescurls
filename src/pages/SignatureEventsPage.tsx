@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import Footer from '../components/Footer'
 import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
+import GmaBanner from '../components/GmaBanner'
 
 const SignatureEventsPage: React.FC = () => {
     const navigate = useNavigate()
@@ -62,8 +63,14 @@ const SignatureEventsPage: React.FC = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row">
+                    <div className="col">
+                        <GmaBanner />
+                    </div>
+                </div>
                 <Footer />
             </section>
+
         </>
     )
 }

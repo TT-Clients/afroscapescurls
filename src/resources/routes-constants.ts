@@ -6,5 +6,6 @@ export const ROUTES = {
     EDUCATION_ROUTE: '/education',
     MEETTEAM_ROUTE: '/meet-the-team',
     SIGNATUREEVENTS_ROUTE: '/signature-events',
-    SPECIALEVENTS_ROUTE: '/special-events'
+    SPECIALEVENTS_ROUTE: '/special-events',
+    PHOTOS_ROUTE:'/photos'
 }

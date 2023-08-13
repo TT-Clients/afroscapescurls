@@ -1,4 +1,5 @@
 import React from 'react';
+import GmaBanner from './GmaBanner';
 
 const About: React.FC = () => {
     return (
@@ -6,7 +7,7 @@ const About: React.FC = () => {
             <div className="container">
                 <div className="row mb-5">
                     <div className="col">
-                        <img src="./img/gma.png" className="img-fluid" alt="" />
+                       <GmaBanner />
                     </div>
                 </div>
                 <div className="row">
@@ -60,6 +61,7 @@ const About: React.FC = () => {
                         </p>
                     </div>
                 </div>
+              
             </div>
         </section>
     )

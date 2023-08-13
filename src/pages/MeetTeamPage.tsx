@@ -5,6 +5,7 @@ import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
 import Button from 'react-bootstrap/Button'
 import Modal from 'react-bootstrap/Modal'
+import GmaBanner from '../components/GmaBanner'
 
 const MeetTeamPage: React.FC = () => {
     const navigate = useNavigate()
@@ -316,6 +317,12 @@ Despite being a terrible speller, she loves Quiddler.`
                     </div>
                 </div>
             </section>
+            <div className="row">
+                    <div className="col">
+                        <GmaBanner />
+                    </div>
+                </div>
+                
             <Footer />
         </>
     )
