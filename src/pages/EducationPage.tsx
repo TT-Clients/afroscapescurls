@@ -84,7 +84,7 @@ const EducationPage: React.FC = () => {
                         <div className="col">
                             <h2 className="text-center">Young History Detectives</h2>
                             <div className="card" style={{ width: '18rem;' }}>
-                                <a href="www.theyhd.com">
+                                <a href="http://www.theyhd.com">
                                     <img src="./img/yhd2.png" className="card-img-top" />
                                 </a>
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF'}}>

@@ -8,7 +8,7 @@ const Photos: React.FC = () => {
             title:'Community Game Night',
             location:'Urban League of NE',
             date:'Saturday, August 5th & Saturday August 19th', 
-            image:'./img/calendar/games.jpg',
+            image:'./img/calendar/gamenight.png',
             link:'',
             description:'More information coming soon'
         },
@@ -38,14 +38,14 @@ const Photos: React.FC = () => {
             link:'https://www.nuke-con.com/',
             description:`Nuke-Con is an all-volunteer organization dedicated to promoting the positive educational, social, and entertainment aspects in all types of gaming hobbies. We'll be a vendor there. More information coming soon!`
         },
-        {
-            title:`Divisible Documentary Film Screening`,
-            location:'TBD',
-            date:'TBD', 
-            image:'./img/calendar/film.jpg',
-            link:'https://www.divisibledoc.com/',
-            description:` More information coming soon!`
-        },
+        // {
+        //     title:`Divisible Documentary Film Screening`,
+        //     location:'TBD',
+        //     date:'TBD', 
+        //     image:'./img/calendar/film.jpg',
+        //     link:'https://www.divisibledoc.com/',
+        //     description:` More information coming soon!`
+        // },
         {
             title:`AfroCon 2023: Making Space to Dream`,
             location:'TBD',
@@ -54,14 +54,14 @@ const Photos: React.FC = () => {
             link:'http://www.afroconomaha.com/',
             description:` More information coming soon!`
         },
-        {
-            title:`AfroCon VIP Brunch`,
-            location:'TBD',
-            date:'Sunday October 8th', 
-            image:'./img/calendar/brunch.jpg',
-            link:'http://www.afroconomaha.com/',
-            description:` More information coming soon!`
-        },
+        // {
+        //     title:`AfroCon VIP Brunch`,
+        //     location:'TBD',
+        //     date:'Sunday October 8th', 
+        //     image:'./img/calendar/brunch.jpg',
+        //     link:'http://www.afroconomaha.com/',
+        //     description:` More information coming soon!`
+        // },
 
     ]
 
