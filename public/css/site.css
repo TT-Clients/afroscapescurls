@@ -136,3 +136,12 @@ input[type=checkbox] {
   .top-image{
     height:616px;
   }
+
+  #steampunk{
+    background-color: #212529!important;
+    color: #FFF
+  }
+
+  #donate{
+    padding-top:1rem
+  }
