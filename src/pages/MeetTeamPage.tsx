@@ -66,7 +66,27 @@ success, thus resulting in community and economic development.`,
 well-facilitated discussions. For two decades she worked in and with nonprofit organizations across the US and U.K. as a
 program manager, organizational leader, and equity and justice business consultant. At present she&apos;s the leader of
 strategy and culture at Omaha Girls Rock. She was raised on sci-fi and action films, and loves to play table-top games.
-Despite being a terrible speller, she loves Quiddler.`
+Despite being a terrible speller, she loves Quiddler.`,
+'Stephani Tyrance':`Stephani designs and manages HIP's national capacity-building Leadership Institute for individuals working on health equity in local health departments. As a member of the capacity building team, she also facilitates workshops and provides technical assistance to public health organizations seeking to center equity in their practice. Over the last 18 years Stephani has been focused on advancing racial justice practices and supporting communities of color.
+
+Stephani lives with her husband and seven-year-old in Kansas. They are a sports loving family that cheer on the Carolina Tar Heels, the Philadelphia Eagles and now the Jacksonville Jaguars. Stephani also enjoys spending time at the beach, hitting the trails, game nights and blerd culture, and serving her community.
+`,
+'Nancy Williams':`Nancy Williams has been practicing agriculture for a long time: first as a 4-H member in elementary school then as an FFA member in high school. Her family raised most of the produce they consumed; at one time maintaining as many as six gardens to feed themselves and share with neighbors. Nancy earned scholarships to study Horticulture. She earned a Bachelor of Science degree at Louisiana State University then pursued a master of science in Weed Science with a minor in Plant Pathology at Cornell University. Nancy has diverse experiences in agriculture, from corporations, serving as an agronomist for local farmers and entrepreneurs to grassroots organizing and management for nonprofit community organizations. For nearly 15 years, Nancy served as an IT leader for Boys & Girls Clubs of the Midlands; where she led award winning programs, increased technology integration, and supported improved organizational outcomes.`,
+'Denise Chapman': `Denise Chapman graduated from Creighton University with a BA in theatre. She went on to receive her MFA from the Theatre Conservatory at the Chicago College of Performing Arts at Roosevelt University. 
+
+After graduation she performed with Qwest Educational Programs touring elementary and middle schools in the greater Chicago land area and worked as a Solo performing artist. She returned to Omaha in 2006 and worked with Blue Barn’s Witching hour for three years as Co-Artistic director/ensemble member and at the Omaha Community Playhouse as the director of education and outreach. 
+
+She is a strong believer that art changes our lives for the better, it gives a voice to those who feel like they are not being heard, and expresses a vision of hope to all those who are touched by it. 
+
+Currently she is the Artistic Director of  Theatre, The Union for Contemporary Art and an adjunct professor at Creighton University. `,
+'Jessica Ehule': `Jessica Ehule (she/her) is a courageous public health leader with a passion for addressing health
+and racial equity through highlighting root cause issues that contribute to inequities in health
+outcomes today. She is the Birth Justice Program Manager at I Be Black Girl, the only
+reproductive justice organization in Nebraska. Jessica has served in the maternal and child
+health space for over a decade and is committed to working towards a society in which people
+are the priority. She is a life-long learner with specific interest in science, history, and sociology.
+In her leisure time she enjoys reading, exercising, exploring cuisines of the world, and hanging
+out with her black pug named Onyx.`
 
 
     }
@@ -81,7 +101,7 @@ Despite being a terrible speller, she loves Quiddler.`
         <>
             <TopNav title="Meet the Team" />
             <div className="container-fluid w-100 h-auto mt-5 p-0">
-                <img src="./img/lxn.png" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+                <img src="./img/lxn.png" className="img-fluid w-100 p-0 mt-4 top-image" alt="Patience" />
             </div>
             <section className="" style={{ padding: '0', margin: 0 }}>
                 <div className="container-fluid">
@@ -239,7 +259,22 @@ Despite being a terrible speller, she loves Quiddler.`
                                 <img src="./img/team/jessicaEhule.png" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Jessica Ehule MS, MSPH</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
+                                    <p className="card-text">
+                                    Jessica Ehule (she/her) is a courageous public health leader with a passion for addressing health
+and racial equity through highlighting root cause issues that contribute to inequities in health
+outcomes today. She is the Birth Justice Program Manager at I Be Black Girl, the only
+reproductive justice organization in Nebraska. Jessica has served in the maternal and child
+health space for over a decade and is committed to working towards a society in which people
+are the priority. She is a life-long learner with specific interest in science, history, and sociology.
+In her leisure time she enjoys reading, exercising, exploring cuisines of the world, and hanging
+out with her black pug named Onyx.
+                                    </p>
+                                    <Button variant="primary" onClick={() => handleShow('Jessica Ehule')} className="about-btn">
+                                        Read More
+                                    </Button>
+                                    <label htmlFor="expanded" role="button">
+                                        read more
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +308,22 @@ Despite being a terrible speller, she loves Quiddler.`
                                 <img src="./img/HOACC.png" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Denise Chapman</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
+                                    <input type="checkbox" id="expanded" />
+                                    <p className="card-text">
+                                    Denise Chapman graduated from Creighton University with a BA in theatre. She went on to receive her MFA from the Theatre Conservatory at the Chicago College of Performing Arts at Roosevelt University. 
+
+After graduation she performed with Qwest Educational Programs touring elementary and middle schools in the greater Chicago land area and worked as a Solo performing artist. She returned to Omaha in 2006 and worked with Blue Barn&apos;s Witching hour for three years as Co-Artistic director/ensemble member and at the Omaha Community Playhouse as the director of education and outreach. 
+
+She is a strong believer that art changes our lives for the better, it gives a voice to those who feel like they are not being heard, and expresses a vision of hope to all those who are touched by it. 
+
+Currently she is the Artistic Director of  Theatre, The Union for Contemporary Art and an adjunct professor at Creighton University. 
+                                    </p>
+                                    <Button variant="primary" onClick={() => handleShow('Denise Chapman')} className="about-btn">
+                                        Read More
+                                    </Button>
+                                    <label htmlFor="expanded" role="button">
+                                        read more
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -300,7 +350,16 @@ Despite being a terrible speller, she loves Quiddler.`
                                 <img src="./img/team/nancyWilliams.png" className="card-img-top team-img-size"/>
                                 <div className="card-body">
                                     <h5 className="card-title">Nancy Williams</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
+                                    <input type="checkbox" id="expanded" />
+                                    <p className="card-text">
+                                    Nancy Williams has been practicing agriculture for a long time: first as a 4-H member in elementary school then as an FFA member in high school. Her family raised most of the produce they consumed; at one time maintaining as many as six gardens to feed themselves and share with neighbors. Nancy earned scholarships to study Horticulture. She earned a Bachelor of Science degree at Louisiana State University then pursued a master of science in Weed Science with a minor in Plant Pathology at Cornell University. Nancy has diverse experiences in agriculture, from corporations, serving as an agronomist for local farmers and entrepreneurs to grassroots organizing and management for nonprofit community organizations. For nearly 15 years, Nancy served as an IT leader for Boys & Girls Clubs of the Midlands; where she led award winning programs, increased technology integration, and supported improved organizational outcomes.
+                                    </p>
+                                    <Button variant="primary" onClick={() => handleShow('Nancy Williams')} className="about-btn">
+                                        Read More
+                                    </Button>
+                                    <label htmlFor="expanded" role="button">
+                                        read more
+                                    </label>
                                 </div>
                             </div>
                         </div>
@@ -308,8 +367,20 @@ Despite being a terrible speller, she loves Quiddler.`
                             <div className="card" style={{ width: '18rem;' }}>
                                 <img src="./img/team/Stephanie Tyrance.jpg" className="card-img-top team-img-size"  />
                                 <div className="card-body">
-                                    <h5 className="card-title">Stephanie Tyrance</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
+                                    <h5 className="card-title">Stephani Tyrance</h5>
+                                    <input type="checkbox" id="expanded" />
+                                    <p className="card-text">
+                                    Stephani designs and manages HIP’s national capacity-building Leadership Institute for individuals working on health equity in local health departments. As a member of the capacity building team, she also facilitates workshops and provides technical assistance to public health organizations seeking to center equity in their practice. Over the last 18 years Stephani has been focused on advancing racial justice practices and supporting communities of color.
+
+Stephani lives with her husband and seven-year-old in Kansas. They are a sports loving family that cheer on the Carolina Tar Heels, the Philadelphia Eagles and now the Jacksonville Jaguars. Stephani also enjoys spending time at the beach, hitting the trails, game nights and blerd culture, and serving her community.
+
+                                    </p>
+                                    <Button variant="primary" onClick={() => handleShow('Stephani Tyrance')} className="about-btn">
+                                        Read More
+                                    </Button>
+                                    <label htmlFor="expanded" role="button">
+                                        read more
+                                    </label>
                                 </div>
                             </div>
                         </div>

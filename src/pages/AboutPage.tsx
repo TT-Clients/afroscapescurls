@@ -37,8 +37,8 @@ const AboutPage: React.FC = () => {
     return (
         <>
             <TopNav title="About" />
-            <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="./img/games2.jpg" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
+            <div className="container-fluid w-100 h-auto mt-5 p-0 d-flex justify-content-center">
+                <img src="./img/HOACC.png" className="img-fluid p-0 mt-5 top-image" alt="Patience" />
             </div>
            
             <section className="" style={{ padding: '0', margin: 0 }}>

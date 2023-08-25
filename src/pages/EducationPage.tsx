@@ -90,7 +90,7 @@ const EducationPage: React.FC = () => {
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF'}}>
                                     <h5 className="card-title text-center">
                                         {' '}
-                                        <a href="www.theyhd.com">Young History Detectives</a>
+                                        <a href="http://www.theyhd.com" target='_blank' rel='noreferrer'>Young History Detectives</a>
                                     </h5>
                                     <p className="card-text" style={{overflow:'auto', height: '460px' }}>
                                         <div>Young History Detectives (YHD) is our youth enrichment program. It uses geek culture to promote literacy, critical

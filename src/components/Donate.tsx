@@ -13,7 +13,7 @@ const Donate: React.FC = () => {
                             <div className="col-md-4">
                                 <div className="thumbnail">
                                     <a href="./img/games.jpg">
-                                        <img src="./img/gamestack.jpg" alt="GAmes" style={{ width: '100%' }} />
+                                        <img src="./img/gamestack.jpg" alt="Games" style={{ width: '100%' }} />
                                     </a>
                                 </div>
                             </div>
