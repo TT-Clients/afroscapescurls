@@ -16,40 +16,31 @@ const SpecialEventsPage: React.FC = () => {
 
     return (
         <>
-            <TopNav title="Special Events" />
-            <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                <h1 style={{ fontSize: '4em' }}>Special Events</h1>
-               
+           <TopNav title="Event Calendar" />
+            <div className="container-fluid w-100 h-auto m-0 p-0">
+                <img src="./img/seheader.jpg" className="img-fluid w-100 pt-4 mt-5 top-image" alt="Patience" style={{ height: '100%' }} />
             </div>
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <div className="text-center mt-4" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
-                            <h1 className="text-uppercase">Special Events</h1>
-                            <p></p>
+            <section className="" style={{ padding: '0', margin: 0 }}>
+                <div className="container-fluid" style={{ padding: 0, margin: 0 }}>
+                    <div className="row" style={{ padding: 0, margin: 0 }}>
+                        <div className="col" style={{ padding: 0, margin: 0 }}>
+                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-blue)', color: 'black' }}>
+                                <h1 className="text-uppercase py-3">Event Calendar</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col">
-                        <img src="./img/steampunk.jpg" className="img-thumbnail" alt="..." />
-                        <p>
-                            <strong>The SteamPunk Tea Party</strong> is an immersive, multidisciplinary experience that explores the innovation and
-                            inventiveness of the Black Victorian era of excellence often overlooked, that examines the intersectionality of history, technology,
-                            and the future.
-                        </p>
-                    </div>
-
-                    <div className="col">
-                        <img src="./img/afrocon2.jpg" className="img-thumbnail" alt="..." />
-                        <img src="./img/afrocon1.jpg" className="img-thumbnail" alt="..." />
-                        <p>
-                            <strong>AfroCon</strong> is a 2-day comic and gaming convention, with community conversations, workshops and vendors.
-                        </p>
+                <div className="container">
+                    
+                    <div className="row">
+                        <div className="col">
+                            <div data-tockify-component="calendar" data-tockify-calendar="the.house.events"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Footer />
+                <Footer />
+            </section>
+                
         </>
     )
 }

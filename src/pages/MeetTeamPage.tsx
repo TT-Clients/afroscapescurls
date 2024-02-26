@@ -79,18 +79,15 @@ Despite being a terrible speller, she loves Quiddler.`
     return (
         <>
             <TopNav title="Meet the Team" />
-            <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
-                <h1 style={{ fontSize: '4em' }}>Meet the Team</h1>
-            </div>
-            <div className="container-fluid w-100 h-auto m-0 p-0">
+            <div className="container-fluid w-100 h-auto mt-5 p-0">
                 <img src="./img/lxn.png" className="img-fluid w-100 p-0 m-0 top-image" alt="Patience" />
             </div>
             <section className="" style={{ padding: '0', margin: 0 }}>
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col">
-                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-orange)', color: 'black' }}>
-                                <h1 className="text-uppercase">Meet the Team</h1>
+                            <div className="text-center" style={{ backgroundColor: 'var(--hoacc-teal)', color: 'black' }}>
+                                <h1 className="text-uppercase py-3">Meet the Team</h1>
                             </div>
                         </div>
                     </div>
@@ -108,11 +105,11 @@ Despite being a terrible speller, she loves Quiddler.`
                     </Modal.Footer>
                 </Modal>
                 <div className="container">
-                    <h1 className="text-center mt-3">Staff</h1>
-                    <div className="row">
+                    <h1 className="text-center mt-5">Staff</h1>
+                    <div className="row  py-5">
                         <div className="col">
                             <div className="card">
-                                <img src="./img/team/jade.jpg" className="card-img-top" alt="..." />
+                                <img src="./img/team/jade.jpg" className="card-img-top" alt="Jade Rogers" />
                                 <div className="card-body">
                                     <h5 className="card-title">Jade Rogers</h5>
                                     <input type="checkbox" id="jade" />
@@ -134,7 +131,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         fiction, fantasy, World of Warcraft, The Sims and Octavia Butler. Star Wars + Star Trek + the X-Men hold equal space in
                                         her heart.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Jade Rogers')}>
+                                    <Button variant="primary" onClick={() => handleShow('Jade Rogers')} className="about-btn" >
                                         Read More
                                     </Button>
                                 </div>
@@ -149,7 +146,7 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                          <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/team/Nik Whitcomb.JPG" className="card-img-top" style={{ height: '365px' }} />
+                                <img src="./img/team/Nik Whitcomb.JPG" className="card-img-top" />
                                 <div className="card-body">
                                     <h5 className="card-title">Nik Whitcomb</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -158,7 +155,7 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="./img/HOACC.png" className="card-img-top" alt="..." style={{ height: '365px' }} />
+                                <img src="./img/team/VictoriaJones.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">Victoria Jones</h5>
                                     <input type="checkbox" id="jade" />
@@ -167,7 +164,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         joining H.O.A.C.C, Victoria did work with local nonprofits Voices for Children and Holland Children&apos;s Movement and
                                         Institute. She graduated with her B.S. in Communications from the University of Nebraska at Omaha in December of 2015.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Victoria Jones')}>
+                                    <Button variant="primary" onClick={() => handleShow('Victoria Jones')} className="about-btn">
                                         Read More
                                     </Button>
                                 </div>
@@ -175,11 +172,11 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                        
                     </div>
-                    <div className="row">
+                    <div className="row  py-5">
                         <h2 className="text-center mt-5">Board</h2>
                         <div className="col">
                             <div className="card" style={{width:'250px'}}>
-                                <img src="./img/HOACC.png" className="card-img-top" style={{height:'200px'}} />
+                                <img src="./img/team/wayneBrown.jpg" className="card-img-top" style={{height:'200px'}} />
                                 <div className="card-body">
                                     <h5 className="card-title">Wayne Brown, Esq.,</h5>
                                     <p className="card-text">
@@ -190,7 +187,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         Omaha Community Foundation. In his spare time Wayne enjoys biking, reading comic books and mentoring his three daughters
                                         in the ways of the force.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Wayne Brown, Esq.,')}>
+                                    <Button variant="primary" onClick={() => handleShow('Wayne Brown, Esq.,')} className="about-btn">
                                         Read More
                                     </Button>
                                 </div>
@@ -198,7 +195,7 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="./img/HOACC.png" className="card-img-top team-img-size" />
+                                <img src="./img/team/katrinaAdams.jpg" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Katrina Adams</h5>
                                     <p className="card-text">
@@ -209,7 +206,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         believes there is something intrinsic that connects us all. As a servant-leader, this perspective is the foundation on
                                         which she builds relationships within the Omaha-metro’s diverse, intersectional community.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Katrina Adams')}>
+                                    <Button variant="primary" onClick={() => handleShow('Katrina Adams')} className="about-btn">
                                         Read More
                                     </Button>
                                 </div>
@@ -217,7 +214,7 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="./img/team/Julia Parker.JPG" className="card-img-top team-img-size" />
+                                <img src="./img/team/juliaParker.png" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Julia Parker</h5>
                                     <p className="card-text">
@@ -230,7 +227,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         sustainable entities. Ms. Parker believes community-based micro-lenders, to provide access to proven pathways for
                                         success, thus resulting in community and economic development.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Julia Parker')}>
+                                    <Button variant="primary" onClick={() => handleShow('Julia Parker')} className="about-btn">
                                         Read More
                                     </Button>
                                 </div>
@@ -238,7 +235,7 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                         <div className="col">
                             <div className="card">
-                                <img src="./img/HOACC.png" className="card-img-top team-img-size" />
+                                <img src="./img/team/jessicaEhule.png" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Jessica Ehule MS, MSPH</h5>
                                     <p className="card-text">More Info Coming Soon</p>
@@ -258,7 +255,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                         strategy and culture at Omaha Girls Rock. She was raised on sci-fi and action films, and loves to play table-top games.
                                         Despite being a terrible speller, she loves Quiddler.
                                     </p>
-                                    <Button variant="primary" onClick={() => handleShow('Rachel Grossman')}>
+                                    <Button variant="primary" onClick={() => handleShow('Rachel Grossman')} className="about-btn">
                                         Read More
                                     </Button>
                                     <label htmlFor="expanded" role="button">
@@ -268,7 +265,7 @@ Despite being a terrible speller, she loves Quiddler.`
                             </div>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row py-5">
                         <h2 className="text-center mt-4">Advisory Council</h2>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
@@ -290,14 +287,22 @@ Despite being a terrible speller, she loves Quiddler.`
                         </div>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/team/Miklos Fitch.jpg" className="card-img-top team-img-size" />
+                                <img src="./img/team/mikStarlaFitch.jpg" className="card-img-top team-img-size" />
                                 <div className="card-body">
                                     <h5 className="card-title">Mik & Starla Fitch</h5>
                                     <p className="card-text">More Info Coming Soon</p>
                                 </div>
                             </div>
                         </div>
-
+                        <div className="col">
+                            <div className="card" style={{ width: '18rem;' }}>
+                                <img src="./img/team/nancyWilliams.png" className="card-img-top team-img-size"/>
+                                <div className="card-body">
+                                    <h5 className="card-title">Nancy Williams</h5>
+                                    <p className="card-text">More Info Coming Soon</p>
+                                </div>
+                            </div>
+                        </div>
                         <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
                                 <img src="./img/team/Stephanie Tyrance.jpg" className="card-img-top team-img-size"  />
@@ -307,15 +312,7 @@ Despite being a terrible speller, she loves Quiddler.`
                                 </div>
                             </div>
                         </div>
-                        <div className="col">
-                            <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/HOACC.png" className="card-img-top team-img-size"/>
-                                <div className="card-body">
-                                    <h5 className="card-title">Nancy Williams</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>

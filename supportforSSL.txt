@@ -1,0 +1,724 @@
+Technical Support
+11:49
+Assistant at 11:49, Mar 14:
+Great! What are you working on? Here to help.
+Domains
+Email
+My Account
+Website
+Refund
+Something Else
+jade at 11:49, Mar 14:
+Website
+Assistant at 11:49, Mar 14:
+How can we help with your website?
+Website Issue
+WordPress
+Add a Photo
+Add a Blog
+Publish a Website
+Website + Marketing Tutorial
+Something Else
+jade at 11:50, Mar 14:
+Website Issue
+Assistant at 11:50, Mar 14:
+Here to help! Please provide some additional details to help get you on the right path.
+
+If we don't have an answer, we'll get you to someone!
+jade at 11:50, Mar 14:
+My SSL cert is still not working on my site
+Assistant at 11:50, Mar 14:
+How can we help with your SSL?
+SSL Expired
+Install an SSL
+Site Says Insecure
+Buy an SSL
+Other SSL Inquiry
+jade at 11:50, Mar 14:
+Site Says Insecure
+Assistant at 11:50, Mar 14:
+Let's fix those insecure warnings.
+Did you have an SSL set up and working before you started getting security warnings?
+Yes
+No
+jade at 11:50, Mar 14:
+Yes
+Assistant at 11:50, Mar 14:
+Do you have Managed SSL services?
+Yes
+No
+jade at 11:50, Mar 14:
+No
+Assistant at 11:50, Mar 14:
+Let's get you over to someone to take a look.
+So you don't have to stay by your computer, we can move this conversation over to a text message.
+How would you like to continue?
+Let's Keep Chattin'
+Let's Text Instead
+jade at 11:50, Mar 14:
+Let's Keep Chattin'
+Assistant at 11:51, Mar 14:
+We're working on connecting you with someone. One moment...
+Info at 11:51, Mar 14:
+Thank you for chatting with GoDaddy. We're experiencing higher than normal volumes. Hang in there. Your estimated wait time is 47 minutes.
+You are now connected with Chelikacherla B. Please allow a moment for them to read your conversation so far.
+Chelikacherla B at 11:52, Mar 14:
+Hi. My name is Chelikacherla B. How may I help you with websites?
+jade at 11:53, Mar 14:
+Hello, I've been going back and forth with support for several weeks to get my ssl certificate tied to my afroscapescurls.com domain
+I've uninstalled, reinstalled and rekeyed it but nothing has worked
+Chelikacherla B at 11:54, Mar 14:
+Okay. I understand that
+Before we proceed further, could you please provide your customer ID and 4 digit pin the secure forms?
+Chelikacherla B has sent you a Secure Form: PIN and Customer Number
+jade at 11:57, Mar 14:
+the pin form isnt loading
+can i just put that information in chat?
+Pin form says: There was a connection problem and the Secure Form could not be opened.
+Please contact your agent for assistance.
+Chelikacherla B at 11:58, Mar 14:
+Yes. You can share the information in chat
+jade at 11:58, Mar 14:
+Customer # 162599554
+Pin 8331
+Chelikacherla B at 11:58, Mar 14:
+Thank you
+Let me check your account once
+jade at 11:59, Mar 14:
+ok
+Chelikacherla B at 12:01, Mar 14:
+Have you connected afroscapescurls.com with the cpanel hosting in your account?
+jade at 12:01, Mar 14:
+yes, its under the same hosting as afroconomaha I believe
+Chelikacherla B at 12:02, Mar 14:
+Okay. One moment please
+To better support you. I'm going to get a specialist to join this conversation to take care of your specific issue. Just so you're prepared, you may need to revalidate your account to specialist for security reasons but don't worry they have your entire conversation history.
+jade at 12:05, Mar 14:
+ok, thank you
+Vikash K at 12:08, Mar 14:
+Hi, My name is Vikash. I appreciate the time that you have spent with us on getting connected. please allow me your precious 2-3 minute to review the previous conversation.
+jade at 12:08, Mar 14:
+Greetings Vikash, no problem
+Vikash K at 12:13, Mar 14:
+Please do not worry at all and let me check it once for you .
+Could you also provide me the two step authentication code that you have just received on your registered mobile?
+jade at 12:15, Mar 14:
+I dont have my phone on me but I do have my customer number and pin
+Vikash K at 12:18, Mar 14:
+Sure, I really appreciate your understanding and patience here, and look like you have added the 2FA for the additional security on the account 162599554
+
+And without validating both factor, we are unable to access the account due to account security .so request you to please once help me with the security code which you receive on the registered phone number?
+jade at 12:18, Mar 14:
+one moment
+Vikash K at 12:19, Mar 14:
+Sure, I am right here waiting for you ?
+jade at 12:22, Mar 14:
+312787
+Vikash, are you there?
+Vikash K at 12:24, Mar 14:
+Jade, Thank you for the validation and just for the confirmation that is it the same domain on which we are working :
+
+46d.0d4.mywebsitetransfer.com
+jade at 12:25, Mar 14:
+the domain is afroscapescurls.com
+its under the same hosting as afroconomaha.com
+Vikash K at 12:26, Mar 14:
+Thanks for sharing the domain name
+jade at 12:29, Mar 14:
+If you need to move the domain to the other hosting package to get SSL cert set up then thats fine
+Vikash K at 12:30, Mar 14:
+Jade, I really appreciate your time and patience here, and thanks you for staying connected with me and as I have reviewed the account and didn't find any active SSl for the website [ afroscapescurls.com ] , which is the reason the site is not secured:https://certs.godaddy.com/cert
+jade at 12:31, Mar 14:
+Yes, I've tried everything and met with support multiple times to get the SSL linked to this domain
+I have installed it as well as rekeying the certificate and nothing has worked
+So I need someone on your end to activate the SSL certificate for this domain
+Vikash K at 12:34, Mar 14:
+Jade, thank you for sharing the information and correct me if I am wrong here, as I can see that there is a SSL in the account for the domain
+[ 46d.0d4.mywebsitetransfer.com ] , is the same SSL do you want to use for the domain
+[ afroscapescurls.com ] , to secure it ?
+jade at 12:34, Mar 14:
+yes
+Vikash K at 12:34, Mar 14:
+https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 12:35, Mar 14:
+also that link shows "No Page Found"
+Vikash K at 12:37, Mar 14:
+Thanks for the information and let me check it once for you .
+Jade, sorry for the inconvenience caused to you and I really appreciate your time and patience here, and as I can see that previously you has rekey the certificate and also revoked the SSL which delete all the SSL setting :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+
+So, I request you to please rekey once the SSL to secure the website .
+jade at 12:42, Mar 14:
+I already rekeyed this multiple times
+please fix this
+If this cannot be fixed then we will take our business to another company
+Vikash K at 12:45, Mar 14:
+Jade, I completely understand your concern here and request you to please do a last time rekey , it will get fixed or you can choose the SSL setup service for you , through which a dedicated team will setup the SSL for you :)
+jade at 12:46, Mar 14:
+how much does that cost?
+Vikash K at 12:49, Mar 14:
+Jade, I really appreciate your time and patience here, and just to know that the SSL setup service will cost you around $39.99USD and through which a dedicated team will remove the expired certificate and install a fresh new certificate for you and also fix the HTTPS redirection issue so that the website will only with the HTTPS only and remain fully secured globally.
+
+Shall I get it for you?
+jade at 12:49, Mar 14:
+No, I shouldnt have to repay something that I already paid for
+Do you have the power tofix this on your end?
+I hate it that godaddy nickel and dimes customers for half functional services
+I'm trying to refollow these rekey steps but i dont see a new certificate button
+Vikash K at 12:51, Mar 14:
+Jade, sorry for the inconvenience caused to you and I completely understand your concern here and as it is the standard SSL , so we don't have the access to rekey it form ou end due to the security reason, otherwise, I have already do to for you , but I can be assured that I will guide you here with the correct step to rekey the SSL to fix the issue right here
+Jade, I really appreciate your time and patience here, and request you to please once use the below article and generate the new CSRs first o rekey the SSL :https://www.godaddy.com/help/generate-a-csr-certificate-signing-request-for-my-cpanel-hosting-32044
+jade at 12:52, Mar 14:
+All I see is a certificate that says afroscapescurls.com
+i am using that article but the article must be out of date
+I do not see what the article is talking about
+id send a screenshot but it wont let me
+Vikash K at 12:54, Mar 14:
+Jade, sorry for the inconvenience caused to you and request you to please once use the below link and follow the path once to get the CSRs form the hosting :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+
+Cpanel admin -> SSL/TLS
+Once you access the SSL/TLS setting then
+Under Certificate Signing Requests (CSR), click Generate, view, or delete SSL certificate signing requests.
+
+Complete the fields in the Generate a New Certificate Signing Request (CSR) section.
+
+And request you to please fill the correct detail and use the domain name only
+
+afroscapescurls.com
+let me know once you get the encoded CSRs key after filling the detail there:)
+jade at 12:59, Mar 14:
+one moment
+Im now on the page that says Generated Certificate Signing Request
+what do I do next?
+Vikash K at 13:03, Mar 14:
+Great, have you generated the new encoded CSRs key after filling the detail ?
+jade at 13:03, Mar 14:
+I do see an encoded certificate signing request
+Vikash K at 13:05, Mar 14:
+Thanks for the confirmation and request you to please once use the below link and scroll down the page and come to the manage certificate section and choose the first option to rekey your certificate :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 13:06, Mar 14:
+is this where i copy and paste the certificiate request?
+Vikash K at 13:06, Mar 14:
+Once you click on the first option then please provide the complete encoded code in the given box including ----BEGIN NEW CERTIFICATE REQUEST---- and ----END CERTIFICATE REQUEST----, and then select Add Change then
+Select Submit All Changes.
+Yes Please
+jade at 13:07, Mar 14:
+it says reissiue not allowed for this certificateId
+Vikash K at 13:08, Mar 14:
+Please do not worry at all and request you to please once refresh the page and scroll down the page and check the certificate history that a new certificate is generated or not on today's date ?
+jade at 13:09, Mar 14:
+it shows afroscapescurls.com certificate issued today at 12:38
+also recieved an email with a CSR certificate
+Vikash K at 13:11, Mar 14:
+Perfect, now request you to please once download the newly certificate from the same page which is available on the top of the page and select the server type apache only :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 13:12, Mar 14:
+ok, doing this nwo
+*now
+got it
+copy and paste the contents of the pem file?
+Vikash K at 13:13, Mar 14:
+Please wait
+jade at 13:13, Mar 14:
+ok
+are you there?
+the chat is doing something strange
+Vikash K at 13:16, Mar 14:
+Yes I am right here and checking the certificate for you .
+jade at 13:17, Mar 14:
+oh ok, thank you
+Vikash K at 13:19, Mar 14:
+Jade, I really appreciate your understanding and patience here, and as I have reviewed the certificate looks like there is some difference in the domain, let us try to install the certificate once, or else we have to generate a new certificate here with the correct domain name.
+And I request you to please once use the below link and follow the path once to install the new certificate in the hosting :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+
+Cpanel admin -> SSL/TLS
+Under Certificates (CRT), select Generate, view, upload, or delete SSL certificates.
+
+In the Upload a New Certificate section, select Choose File and navigate to the .crt file you downloaded earlier and Select the file and then select Open.
+jade at 13:23, Mar 14:
+it says:ERROR: The system could not save certificate #1 because of an error: That certificate is already installed as “46d.0d4.mywebsitetransfer.com”. No valid certificate provided
+I tried copy and pasting it from the pem file and that worked but it points to the wrong domain : 46d.0d4.mywebsitetransfer.com
+Vikash K at 13:26, Mar 14:
+Ohh, no worries and request you to please once use the below link and scroll down and come to the manage certificate section and click on the second option Install your certificate on the same site which is enabled now after rekey:https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+Then select Add Change.
+Select Submit All Changes.
+jade at 13:27, Mar 14:
+it says reisiue not allowed for this certificate id
+is there a way to compeletely remove and reinstall the cert on the correct domain?
+Vikash K at 13:29, Mar 14:
+Jade, sorry for the inconvenience caused to you and I really appreciate your understanding and patience here, and request you to please try once to complete the setup from the private browser, because this is the last step and after that the SSL will get installed on the site after sometime.
+Or else we have to completely repeat the same process again to install a fresh new certificate.
+jade at 13:31, Mar 14:
+what do you mean to complete setup from a private browser?
+Vikash K at 13:34, Mar 14:
+Jade, I really appreciate your understanding and patience here, and here private browser means the incognito browser or you can try after completely removing the cache and cookies for the browser .
+jade at 13:35, Mar 14:
+So exactly which steps do I need to try from the incognito browser and what do I do when this doesnt work?
+I've tried this over 5 times already and it does not work
+Vikash K at 13:38, Mar 14:
+Jade, I really appreciate your understanding and patience here, and request you to please once use the below link and scroll down and come to the manage certificate section and click on the second option Install your certificate on the same site which is enabled now after rekey:https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+
+Then select Add Change.
+Select Submit All Changes.
+i did this from an incognito browser and I get the same error
+jade at 11:49, Mar 14:
+Website
+Assistant at 11:49, Mar 14:
+How can we help with your website?
+Assistant at 11:49, Mar 14:
+Website Issue
+WordPress
+Add a Photo
+Add a Blog
+Publish a Website
+Website + Marketing Tutorial
+Something Else
+jade at 11:50, Mar 14:
+Website Issue
+Assistant at 11:50, Mar 14:
+Here to help! Please provide some additional details to help get you on the right path.
+
+If we don't have an answer, we'll get you to someone!
+jade at 11:50, Mar 14:
+My SSL cert is still not working on my site
+Assistant at 11:50, Mar 14:
+How can we help with your SSL?
+Assistant at 11:50, Mar 14:
+SSL Expired
+Install an SSL
+Site Says Insecure
+Buy an SSL
+Other SSL Inquiry
+jade at 11:50, Mar 14:
+Site Says Insecure
+Assistant at 11:50, Mar 14:
+Let's fix those insecure warnings.
+Assistant at 11:50, Mar 14:
+Did you have an SSL set up and working before you started getting security warnings?
+Assistant at 11:50, Mar 14:
+Yes
+No
+jade at 11:50, Mar 14:
+Yes
+Assistant at 11:50, Mar 14:
+Do you have Managed SSL services?
+Assistant at 11:50, Mar 14:
+Yes
+No
+jade at 11:50, Mar 14:
+No
+Assistant at 11:50, Mar 14:
+Let's get you over to someone to take a look.
+Assistant at 11:50, Mar 14:
+So you don't have to stay by your computer, we can move this conversation over to a text message.
+Assistant at 11:50, Mar 14:
+How would you like to continue?
+Assistant at 11:50, Mar 14:
+Let's Keep Chattin'
+Let's Text Instead
+jade at 11:50, Mar 14:
+Let's Keep Chattin'
+Assistant at 11:51, Mar 14:
+We're working on connecting you with someone. One moment...
+Info at 11:51, Mar 14:
+Thank you for chatting with GoDaddy. We're experiencing higher than normal volumes. Hang in there. Your estimated wait time is 47 minutes.
+Info at 11:51, Mar 14:
+You are now connected with Chelikacherla B. Please allow a moment for them to read your conversation so far.
+Chelikacherla B at 11:52, Mar 14:
+Hi. My name is Chelikacherla B. How may I help you with websites?
+jade at 11:53, Mar 14:
+Hello, I've been going back and forth with support for several weeks to get my ssl certificate tied to my afroscapescurls.com domain
+jade at 11:53, Mar 14:
+I've uninstalled, reinstalled and rekeyed it but nothing has worked
+Chelikacherla B at 11:54, Mar 14:
+Okay. I understand that
+Chelikacherla B at 11:54, Mar 14:
+Before we proceed further, could you please provide your customer ID and 4 digit pin the secure forms?
+jade at 11:57, Mar 14:
+the pin form isnt loading
+jade at 11:57, Mar 14:
+can i just put that information in chat?
+jade at 11:57, Mar 14:
+Pin form says: There was a connection problem and the Secure Form could not be opened.
+Please contact your agent for assistance.
+Chelikacherla B at 11:58, Mar 14:
+Yes. You can share the information in chat
+jade at 11:58, Mar 14:
+Customer # 162599554
+jade at 11:58, Mar 14:
+Pin 8331
+Chelikacherla B at 11:58, Mar 14:
+Thank you
+Chelikacherla B at 11:59, Mar 14:
+Let me check your account once
+jade at 11:59, Mar 14:
+ok
+Chelikacherla B at 12:01, Mar 14:
+Have you connected afroscapescurls.com with the cpanel hosting in your account?
+jade at 12:01, Mar 14:
+yes, its under the same hosting as afroconomaha I believe
+Chelikacherla B at 12:02, Mar 14:
+Okay. One moment please
+Chelikacherla B at 12:04, Mar 14:
+To better support you. I'm going to get a specialist to join this conversation to take care of your specific issue. Just so you're prepared, you may need to revalidate your account to specialist for security reasons but don't worry they have your entire conversation history.
+Vikash K at 12:08, Mar 14:
+Hi, My name is Vikash. I appreciate the time that you have spent with us on getting connected. please allow me your precious 2-3 minute to review the previous conversation.
+jade at 12:08, Mar 14:
+Greetings Vikash, no problem
+Vikash K at 12:13, Mar 14:
+Please do not worry at all and let me check it once for you .
+Vikash K at 12:14, Mar 14:
+Could you also provide me the two step authentication code that you have just received on your registered mobile?
+jade at 12:15, Mar 14:
+I dont have my phone on me but I do have my customer number and pin
+Vikash K at 12:18, Mar 14:
+Sure, I really appreciate your understanding and patience here, and look like you have added the 2FA for the additional security on the account 162599554
+
+And without validating both factor, we are unable to access the account due to account security .so request you to please once help me with the security code which you receive on the registered phone number?
+jade at 12:18, Mar 14:
+one moment
+Vikash K at 12:19, Mar 14:
+Sure, I am right here waiting for you ?
+jade at 12:22, Mar 14:
+312787
+jade at 12:22, Mar 14:
+Vikash, are you there?
+Vikash K at 12:24, Mar 14:
+Jade, Thank you for the validation and just for the confirmation that is it the same domain on which we are working :
+
+46d.0d4.mywebsitetransfer.com
+jade at 12:25, Mar 14:
+the domain is afroscapescurls.com
+jade at 12:26, Mar 14:
+its under the same hosting as afroconomaha.com
+Vikash K at 12:26, Mar 14:
+Thanks for sharing the domain name
+jade at 12:29, Mar 14:
+If you need to move the domain to the other hosting package to get SSL cert set up then thats fine
+Vikash K at 12:30, Mar 14:
+Jade, I really appreciate your time and patience here, and thanks you for staying connected with me and as I have reviewed the account and didn't find any active SSl for the website [ afroscapescurls.com ] , which is the reason the site is not secured:https://certs.godaddy.com/cert
+jade at 12:31, Mar 14:
+Yes, I've tried everything and met with support multiple times to get the SSL linked to this domain
+jade at 12:31, Mar 14:
+I have installed it as well as rekeying the certificate and nothing has worked
+jade at 12:31, Mar 14:
+So I need someone on your end to activate the SSL certificate for this domain
+Vikash K at 12:34, Mar 14:
+Jade, thank you for sharing the information and correct me if I am wrong here, as I can see that there is a SSL in the account for the domain
+[ 46d.0d4.mywebsitetransfer.com ] , is the same SSL do you want to use for the domain
+[ afroscapescurls.com ] , to secure it ?
+jade at 12:34, Mar 14:
+yes
+Vikash K at 12:34, Mar 14:
+https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 12:35, Mar 14:
+also that link shows "No Page Found"
+Vikash K at 12:37, Mar 14:
+Thanks for the information and let me check it once for you .
+Vikash K at 12:41, Mar 14:
+Jade, sorry for the inconvenience caused to you and I really appreciate your time and patience here, and as I can see that previously you has rekey the certificate and also revoked the SSL which delete all the SSL setting :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+
+So, I request you to please rekey once the SSL to secure the website .
+jade at 12:42, Mar 14:
+I already rekeyed this multiple times
+jade at 12:42, Mar 14:
+please fix this
+jade at 12:42, Mar 14:
+If this cannot be fixed then we will take our business to another company
+Vikash K at 12:45, Mar 14:
+Jade, I completely understand your concern here and request you to please do a last time rekey , it will get fixed or you can choose the SSL setup service for you , through which a dedicated team will setup the SSL for you :)
+jade at 12:46, Mar 14:
+how much does that cost?
+Vikash K at 12:49, Mar 14:
+Jade, I really appreciate your time and patience here, and just to know that the SSL setup service will cost you around $39.99USD and through which a dedicated team will remove the expired certificate and install a fresh new certificate for you and also fix the HTTPS redirection issue so that the website will only with the HTTPS only and remain fully secured globally.
+
+Shall I get it for you?
+jade at 12:49, Mar 14:
+No, I shouldnt have to repay something that I already paid for
+jade at 12:49, Mar 14:
+Do you have the power tofix this on your end?
+jade at 12:50, Mar 14:
+I hate it that godaddy nickel and dimes customers for half functional services
+jade at 12:51, Mar 14:
+I'm trying to refollow these rekey steps but i dont see a new certificate button
+Vikash K at 12:51, Mar 14:
+Jade, sorry for the inconvenience caused to you and I completely understand your concern here and as it is the standard SSL , so we don't have the access to rekey it form ou end due to the security reason, otherwise, I have already do to for you , but I can be assured that I will guide you here with the correct step to rekey the SSL to fix the issue right here
+Vikash K at 12:52, Mar 14:
+Jade, I really appreciate your time and patience here, and request you to please once use the below article and generate the new CSRs first o rekey the SSL :https://www.godaddy.com/help/generate-a-csr-certificate-signing-request-for-my-cpanel-hosting-32044
+jade at 12:52, Mar 14:
+All I see is a certificate that says afroscapescurls.com
+jade at 12:52, Mar 14:
+i am using that article but the article must be out of date
+jade at 12:52, Mar 14:
+I do not see what the article is talking about
+jade at 12:53, Mar 14:
+id send a screenshot but it wont let me
+Vikash K at 12:54, Mar 14:
+Jade, sorry for the inconvenience caused to you and request you to please once use the below link and follow the path once to get the CSRs form the hosting :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+
+Cpanel admin -> SSL/TLS
+Vikash K at 12:55, Mar 14:
+Once you access the SSL/TLS setting then
+Under Certificate Signing Requests (CSR), click Generate, view, or delete SSL certificate signing requests.
+
+Complete the fields in the Generate a New Certificate Signing Request (CSR) section.
+
+And request you to please fill the correct detail and use the domain name only
+
+afroscapescurls.com
+Vikash K at 12:56, Mar 14:
+let me know once you get the encoded CSRs key after filling the detail there:)
+jade at 12:59, Mar 14:
+one moment
+jade at 13:02, Mar 14:
+Im now on the page that says Generated Certificate Signing Request
+jade at 13:02, Mar 14:
+what do I do next?
+Vikash K at 13:03, Mar 14:
+Great, have you generated the new encoded CSRs key after filling the detail ?
+jade at 13:03, Mar 14:
+I do see an encoded certificate signing request
+Vikash K at 13:05, Mar 14:
+Thanks for the confirmation and request you to please once use the below link and scroll down the page and come to the manage certificate section and choose the first option to rekey your certificate :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 13:06, Mar 14:
+is this where i copy and paste the certificiate request?
+Vikash K at 13:06, Mar 14:
+Once you click on the first option then please provide the complete encoded code in the given box including ----BEGIN NEW CERTIFICATE REQUEST---- and ----END CERTIFICATE REQUEST----, and then select Add Change then
+Select Submit All Changes.
+Vikash K at 13:07, Mar 14:
+Yes Please
+jade at 13:07, Mar 14:
+it says reissiue not allowed for this certificateId
+Vikash K at 13:08, Mar 14:
+Please do not worry at all and request you to please once refresh the page and scroll down the page and check the certificate history that a new certificate is generated or not on today's date ?
+jade at 13:09, Mar 14:
+it shows afroscapescurls.com certificate issued today at 12:38
+jade at 13:11, Mar 14:
+also recieved an email with a CSR certificate
+Vikash K at 13:11, Mar 14:
+Perfect, now request you to please once download the newly certificate from the same page which is available on the top of the page and select the server type apache only :https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+jade at 13:12, Mar 14:
+ok, doing this nwo
+jade at 13:12, Mar 14:
+*now
+jade at 13:12, Mar 14:
+got it
+jade at 13:13, Mar 14:
+copy and paste the contents of the pem file?
+Vikash K at 13:13, Mar 14:
+Please wait
+jade at 13:13, Mar 14:
+ok
+jade at 13:15, Mar 14:
+are you there?
+jade at 13:16, Mar 14:
+the chat is doing something strange
+Vikash K at 13:16, Mar 14:
+Yes I am right here and checking the certificate for you .
+jade at 13:17, Mar 14:
+oh ok, thank you
+Vikash K at 13:19, Mar 14:
+Jade, I really appreciate your understanding and patience here, and as I have reviewed the certificate looks like there is some difference in the domain, let us try to install the certificate once, or else we have to generate a new certificate here with the correct domain name.
+Vikash K at 13:20, Mar 14:
+And I request you to please once use the below link and follow the path once to install the new certificate in the hosting :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+
+Cpanel admin -> SSL/TLS
+Vikash K at 13:20, Mar 14:
+Under Certificates (CRT), select Generate, view, upload, or delete SSL certificates.
+
+In the Upload a New Certificate section, select Choose File and navigate to the .crt file you downloaded earlier and Select the file and then select Open.
+jade at 13:23, Mar 14:
+it says:ERROR: The system could not save certificate #1 because of an error: That certificate is already installed as “46d.0d4.mywebsitetransfer.com”. No valid certificate provided
+jade at 13:25, Mar 14:
+I tried copy and pasting it from the pem file and that worked but it points to the wrong domain : 46d.0d4.mywebsitetransfer.com
+Vikash K at 13:26, Mar 14:
+Ohh, no worries and request you to please once use the below link and scroll down and come to the manage certificate section and click on the second option Install your certificate on the same site which is enabled now after rekey:https://certs.godaddy.com/cert/details/xb9payhxiymrukj8qouljvydcz4jd42a?cb=&app=
+Vikash K at 13:27, Mar 14:
+Then select Add Change.
+Select Submit All Changes.
+jade at 13:27, Mar 14:
+it says reisiue not allowed for this certificate id
+jade at 13:28, Mar 14:
+is there a way to compeletely remove and reinstall the cert on the correct domain?
+Vikash K at 13:29, Mar 14:
+Jade, sorry for the inconvenience caused to you and I really appreciate your understanding and patience here, and request you to please try once to complete the setup from the private browser, because this is the last step and after that the SSL will get installed on the site after sometime.
+Vikash K at 13:30, Mar 14:
+Or else we have to completely repeat the same process again to install a fresh new certificate.
+jade at 13:31, Mar 14:
+what do you mean to complete setup from a private browser?
+Vikash K at 13:34, Mar 14:
+Jade, I really appreciate your understanding and patience here, and here private browser means the incognito browser or you can try after completely removing the cache and cookies for the browser .
+jade at 13:35, Mar 14:
+So exactly which steps do I need to try from the incognito browser and what do I do when this doesnt work?
+jade at 13:39, Mar 14:
+i did this from an incognito browser and I get the same error
+jade at 13:40, Mar 14:
+Reissue not allowed for this certificateId.
+Vikash K at 13:42, Mar 14:
+Jade, sorry for the inconvenience caused to you and request you to please once use the below article and completely cleared the complete cache form the browser once:https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop
+jade at 13:42, Mar 14:
+I'm a software engineer, I've already cleared my cache multiple times, I'll try again
+no luck
+Vikash K at 13:45, Mar 14:
+Sure Jade and I request you to please wait for some time like 25-30 min once and then try once again .it will work for sure.
+jade at 13:46, Mar 14:
+it hasn't worked any of the multiple times Ive tried this process so I do not believe that
+is there anything else you can look into on your end?
+cache clearing doesnt take 25 to 30 mins to take effect
+I know that as a software engineer
+i specialize in web development
+Vikash K at 13:51, Mar 14:
+Jade, I completely understand your concern here and totally agree with you that the cache clearing doesn't take 25-30 minutes, but just to know that if there is multiple re-issue requests provided to any SSL certificate, so at this point the SSL itself takes around 30 minute to issue a fresh new another certificate for the given request, it's a global rule.
+Which is the reason I am suggesting you to please wait for around 30 minute and then try once to perform the last step which I have provided to you .
+jade at 13:53, Mar 14:
+its actually been almost 30 minutes since we first tried this, i just scrolled up in chat to see
+it will have been 30 minutes in 4 minutes
+2 minutes until we hit the 30 minute mark
+still getting the same error
+Vikash K at 13:56, Mar 14:
+Jade, I really appreciate your time and patience here, and Request you to please wait and then try once form the private browser only after clearing the complete cache and cookies form the browser:https://support.google.com/accounts/answer/32050?hl=en&co=GENIE.Platform%3DDesktop
+jade at 13:57, Mar 14:
+ive done that before ive tried each time
+still showing the same error
+its officially been 32 minutes
+Vikash K at 14:01, Mar 14:
+Jade, sorry for the inconvenience caused to you and request you to please once help me with the error screenshot form the private browser so that I can check with the team once for you ?
+jade at 14:01, Mar 14:
+it wont allow me to send screenshots in this chat
+the direct error is pink and says Reissue not allowed for this certificateId.
+Vikash K at 14:03, Mar 14:
+Jade, I really appreciate your time and patience here, and request you to please once help me with the screenshot at vikash2334@GoDaddy.com
+jade at 14:05, Mar 14:
+I have sent it, its coming from terra.taylor@gmail.com
+Vikash K at 14:06, Mar 14:
+Thanks , checking it
+Jade, I really appreciate your time and patience here, and I got the screenshot and checking the SSL team once for you , request you to please stay connected with me .
+jade at 14:14, Mar 14:
+ok, thank you
+Vikash K at 14:17, Mar 14:
+Jade, I really appreciate your time and patience here, and request you to please try once to rekey the SSL using the below link from the private browser only :
+https://certs.godaddy.com/cert/details/oehn2c5cjga2lydfvneszgebuio5zftt?cb=&app=
+jade at 14:17, Mar 14:
+do i need to redownload the cert?
+or just repaste what i had in there
+Vikash K at 14:19, Mar 14:
+Jade, just for confirmation are you able to rekey the certificate now ?
+jade at 14:20, Mar 14:
+I get You entered an invalid CSR. Please try again.
+any other suggestions?
+does this need to be further escalated?
+Vikash K at 14:24, Mar 14:
+Jade, sorry for the inconvenience caused to you and I completely understand your concern here and here we have need to generate the new CSRs to rekey the SSL once.
+jade at 14:24, Mar 14:
+ok, where do I go to generate a new CSR
+Vikash K at 14:26, Mar 14:
+Request you to please once use the below link and click on the cpanel admin button :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+Cpanel admin -> SSL/TLS -> Under Certificate Signing Requests (CSR), click Generate, view, or delete SSL certificate signing requests.
+
+Complete the fields in the Generate a New Certificate Signing Request (CSR) section.
+jade at 14:27, Mar 14:
+theres 2 options under key
+one says "Generate a new RSA2048bit key"
+sorry, 3 options
+another says "Key for afrocapescurls.afroconomaha.com"
+Vikash K at 14:28, Mar 14:
+And request you to please fill the correct detail and use the domain name only
+
+afroscapescurls.com
+
+Please use the RSA 2048 only
+jade at 14:28, Mar 14:
+afroscapescurls.com
+so i should generate it with the domain name (afroscapescurls.com) selected or "generate new RSA 2048 key"?
+Vikash K at 14:29, Mar 14:
+generate new RSA 2048 key
+Key will be only generate new RSA 2048 key"?
+jade at 14:30, Mar 14:
+ok, i have generated a new RSA key for the domain afroscapescurls.com
+now go back to paste that in the rekey your certificate section?
+Vikash K at 14:31, Mar 14:
+Yes Please :https://certs.godaddy.com/cert/details/oehn2c5cjga2lydfvneszgebuio5zftt
+jade at 14:32, Mar 14:
+it says certificate request mending reissuance
+Vikash K at 14:33, Mar 14:
+No worries, please refresh the page once
+jade at 14:33, Mar 14:
+i have refreshed and see the rekey in the certificate history
+Vikash K at 14:34, Mar 14:
+Perfect, now request you to please permanently delete all the previously downloaded certificates form your system before you download the new certificate .
+jade at 14:35, Mar 14:
+from my actual downloads folder, right?
+thats where all the ones i downloaded went
+Vikash K at 14:35, Mar 14:
+Yes Please
+jade at 14:36, Mar 14:
+They are now permanently deleted
+Vikash K at 14:37, Mar 14:
+Perfect, now request you to please once download the new certificate from the same page which is available on the top of the page and select the server type apache only
+jade at 14:39, Mar 14:
+ok, downloaded and extracted
+Vikash K at 14:41, Mar 14:
+Request you to please once use the below link and click on the cpanel admin button :https://host.godaddy.com/webhosting/cpanel/account/b9ae6e4e-d13b-11ea-81e3-3417ebe725c2/view
+
+Cpanel admin -> Under Certificates (CRT), select Generate, view, upload, or delete SSL certificates.
+
+In the Upload a New Certificate section, select Choose File and navigate to the .crt file you downloaded earlier Select the file and then select Open.
+jade at 14:43, Mar 14:
+it says "The certificate for the domain “afroscapescurls.com” has been saved."
+under Certificates on server it now shows:
+Domains Issuer Expiration (UTC) Key Type Description Actions
+afroscapescurls.comwww.afroscapescurls.com GoDaddy.com, Inc.
+10/6/23
+RSA, 2,048-bit
+3/14 upload
+sorry, its a bit jumbled
+there is an install option to the far right of the domain names
+should I click install?
+Vikash K at 14:45, Mar 14:
+Not required Jade, and request you to please try once to access the site from the private browser after clearing the cache and the cookies from the browser,
+
+because the site is secured now https://afroscapescurls.com/
+jade at 14:46, Mar 14:
+it still shows as "Not Secure"
+i have cleared all cache and cookies
+i just tried it on another computer as well
+Vikash K at 14:49, Mar 14:
+Jade, request you to please try once this link are you able to load the secure site :https://afroscapescurls.com/
+jade at 14:49, Mar 14:
+oh, i forgot to put the https in front
+yes, it is now secured! Thank you!
+is there a way to redirect if someone tries to access it with http instead of https?
+Vikash K at 14:51, Mar 14:
+Yes Jade, i am woking on that only for you
+jade at 14:52, Mar 14:
+thank you
+Vikash K at 14:57, Mar 14:
+Jade, thank you for staying connected with us for so long and I really appreciate your time and patience here, and I have updated the HTTPS redirection script for you in the htaccess file of the website and request you to please check after couple of minutes the site will start loading with the HTTPS only:)https://afroscapescurls.com/
+jade at 14:59, Mar 14:
+great, thank you so much for your help, time and patience
+Vikash K at 15:00, Mar 14:
+Welcome Jade, I really appreciate your time and patience here, and Please let me know if you have still any doubts regarding this?
+jade at 15:01, Mar 14:
+no, i think im good now. thank you
+Vikash K at 15:03, Mar 14:
+Jade, , thank you so much for your kindness and valuable time !!
+
+Does this resolve your reason for contacting us today?
+jade at 15:03, Mar 14:
+yes it does.
+Vikash K at 15:04, Mar 14:
+Thank you for being with us as a loyal customer for so long we appreciate your business with GoDaddy.Your satisfaction means everything to us. Hope you have found our services helpful and we would love to know your experience on the basis of 0 - 10.
+
+How likely are you to recommend us to a friend, where 10 is the highest and 0 is the least.
+jade at 15:05, Mar 14:
+0. This took 3 hours and 4 or 5 attempts with support to get this finally working
+I'm grateful for your help but i wouldnt recommend godaddy to my worst enemey
+*enemy
+Vikash K at 15:07, Mar 14:
+Jade, I am really sorry for the inconvenience caused to you and I completely understand your concern and unfortunately, it is not the experience we wish to create for any of our users as it is always our endeavor to make GoDaddy the best platform for our users.
+jade at 15:08, Mar 14:
+Godaddy needs a serious technical overhaul, I've never had a good experience with this provider
+but i need to run to a meeting, thanks again for all of your help
+Vikash K at 15:10, Mar 14:
+Sure, I am taking this as feedback from you and let the management know to improve the function and make the easy to use it for the customer :)
+jade at 15:10, Mar 14:
+I appreciate that
+will i be able to save this chat?

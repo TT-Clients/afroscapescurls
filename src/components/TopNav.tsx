@@ -40,7 +40,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                     Events
                   </Link>
                   <ul className="dropdown-menu">
-                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Calendar of Events</Link></li>
+                    <li><Link className="dropdown-item" to={ROUTES.SPECIALEVENTS_ROUTE}>Event Calendar</Link></li>
                     <li><Link className="dropdown-item" to={ROUTES.SIGNATUREEVENTS_ROUTE}>Signature Events</Link></li>
                   </ul>
                 </li>
@@ -50,7 +50,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
               </ul>
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
        
-              <a href="home#photos" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
+              <a href="home#donate" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
               </span>
             </div>
           </div>
