@@ -10,10 +10,10 @@ const Hero: React.FC = () => {
                 <div className="col-sm-12 col-md-4 d-flex justify-content-around">
                 <img src="./img/HOACC.png" className="d-block img-fluid mr-5 main-img" />
                 </div>
-                <div className="col-sm-12 col-md-6 d-flex justify-content-around">
+                <div className="col-sm-12 col-md-7 d-flex justify-content-around">
                    
                                 {/* <img src="./img/SteampunkGroup.jpg" className="d-block img-fluid group-photo"/> */}
-                                <img src="./img/SteampunkGroup-Photoroom.png" className="d-block img-fluid group-photo"/>
+                                <img src="./img/sptp-transparent.png" className="d-block img-fluid group-photo"/>
                              
                      </div>
             </div>
