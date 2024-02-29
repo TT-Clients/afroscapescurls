@@ -19,11 +19,11 @@ const HomePage: React.FC = () => {
           <About />
               <Events />
             <Upcoming />
-           {/* <Steampunk />
+            <Steampunk />
             <Donate />
             <Policies/>
             <Contact />
-            <Footer /> */}
+            <Footer />
        </div>
     )
 }

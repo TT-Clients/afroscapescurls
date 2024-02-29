@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import 'react-phone-number-input/style.css'
+import Button from '@mui/material/Button';
 import PhoneInput from 'react-phone-number-input'
-import profile from '../images/profile.jpg'
 import emailjs from '@emailjs/browser'
+import SendIcon from '@mui/icons-material/Send';
 
 const Contact: React.FC = () => {
     const [name, setName] = useState('')
@@ -124,10 +125,14 @@ const Contact: React.FC = () => {
                     <div className="d-none" id="submitErrorMessage">
                         <div className="text-center text-danger mb-3">Error sending message!</div>
                     </div>
+            
+
                     <div className="text-center">
-                        <button className="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">
-                            {submitted ? 'Message Sent!' : 'Send Message'}
-                        </button>
+                        <Button variant="contained" endIcon={<SendIcon />} size="large">
+                          {submitted ? 'Message Sent!' : 'Send Message'}
+                        </Button>
+                     
+                          
                     </div>
                 </form>
             </div>
