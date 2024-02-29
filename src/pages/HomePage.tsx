@@ -16,10 +16,10 @@ const HomePage: React.FC = () => {
         <div>
             <TopNav title='The House of Afros, Capes & Curls'/>
              <Hero />
-           {/* <About />
-            <Events />
+          <About />
+              <Events />
             <Upcoming />
-            <Steampunk />
+           {/* <Steampunk />
             <Donate />
             <Policies/>
             <Contact />

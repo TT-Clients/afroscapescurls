@@ -125,11 +125,23 @@ input[type=checkbox] {
   .overlay>img { display: block; }
 
 .group-photo{
-  border-radius: 50%;
   padding-bottom:20px
 }
   .team-img-size{
     height:200px;
+  }
+.event-img{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+  .event-img:hover{
+opacity: 0.8;
+background-color: #000;
+box-shadow: 5px 5px #99DBFF
   }
   
   section#contact form#contactForm .form-group input, section#contact form#contactForm .form-group textarea {

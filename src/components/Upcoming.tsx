@@ -1,5 +1,7 @@
 import React from 'react'
-import profile from '../images/profile.jpg'
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+import ImageListItemBar from '@mui/material/ImageListItemBar';
 
 const Upcoming: React.FC = () => {
 
@@ -26,18 +28,18 @@ const Upcoming: React.FC = () => {
             title:`AfroOmaha's AfroFest`,
             location:'Stinson Park, 2285 S 67th St',
             date:'Saturday September 2nd', 
-            image:'./img/calendar/afrofest.jpg',
+            image:'./img/calendar/faeday2024.png',
             link:'https://www.eventbrite.com/e/afro-fest-omaha-2023-tickets-533889597157',
             description:`Come see us at AfroOmaha's AfroFest!  There will also be thrilling local and international performances of live music and dance. Vendors with an array of arts, crafts, jewelry, and of course authentic African cuisine will be present! The Children’s and Educational Village will be filled with fun filled activities, and more!`
         },
-        {
-            title:`NukeCon Board Game Con`,
-            location:'Mid-America Center Council Bluffs',
-            date:'Friday September 22nd - Sunday September 24th', 
-            image:'./img/calendar/nukecon.jpg',
-            link:'https://www.nuke-con.com/',
-            description:`Nuke-Con is an all-volunteer organization dedicated to promoting the positive educational, social, and entertainment aspects in all types of gaming hobbies. We'll be a vendor there. More information coming soon!`
-        },
+        // {
+        //     title:`NukeCon Board Game Con`,
+        //     location:'Mid-America Center Council Bluffs',
+        //     date:'Friday September 22nd - Sunday September 24th', 
+        //     image:'./img/calendar/nukecon.jpg',
+        //     link:'https://www.nuke-con.com/',
+        //     description:`Nuke-Con is an all-volunteer organization dedicated to promoting the positive educational, social, and entertainment aspects in all types of gaming hobbies. We'll be a vendor there. More information coming soon!`
+        // },
         // {
         //     title:`Divisible Documentary Film Screening`,
         //     location:'TBD',
@@ -46,14 +48,14 @@ const Upcoming: React.FC = () => {
         //     link:'https://www.divisibledoc.com/',
         //     description:` More information coming soon!`
         // },
-        {
-            title:`AfroCon 2023: Making Space to Dream`,
-            location:'TBD',
-            date:'Saturday October 7th', 
-            image:'./img/calendar/afrocon.jpg',
-            link:'http://www.afroconomaha.com/',
-            description:` More information coming soon!`
-        },
+        // {
+        //     title:`AfroCon 2023: Making Space to Dream`,
+        //     location:'TBD',
+        //     date:'Saturday October 7th', 
+        //     image:'./img/calendar/afrocon.jpg',
+        //     link:'http://www.afroconomaha.com/',
+        //     description:` More information coming soon!`
+        // },
         // {
         //     title:`AfroCon VIP Brunch`,
         //     location:'TBD',
@@ -75,11 +77,29 @@ const Upcoming: React.FC = () => {
                             <h2 className="section-heading text-uppercase">
                               Our Upcoming Events
                             </h2>
+                            {/* <ImageList variant="masonry" cols={1} gap={8} sx={{ width: '100%', height: '100%' }}>
+      {events.map((item) => (
+        <ImageListItem key={item.image}>
+          <img
+            srcSet={`${item.image}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            src={`${item.image}?w=248&fit=crop&auto=format`}
+            alt={item.title}
+            loading="lazy"
+          />
+          <ImageListItemBar
+            title={item.title}
+            subtitle={<span>by: {item.title}</span>}
+            position="below"
+          />
+        </ImageListItem>
+      ))}
+    </ImageList> */}
+
                             <div className="row justify-content-center">
                                 { events.map((event, idx)=>(
                                      <div className="col-xs-6 col-md-4" key={idx}>
                                      <a href="#" className="thumbnail">
-                                     <img src={event.image} className="img-fluid rounded-start" alt="..." />
+                                     <img src={event.image} className="img-fluid rounded-start event-img" alt="..." />
                                      </a>
                                    </div>
                                 //     <div className="card mb-3" key={idx}>
