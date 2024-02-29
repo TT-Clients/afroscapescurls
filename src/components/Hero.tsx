@@ -7,11 +7,14 @@ const Hero: React.FC = () => {
                       
              <div className="row d-flex justify-content-center">
              
-                <div className="col-sm-12 col-md-6 d-flex justify-content-around">
-                <img src="./img/HOACC.png" className="d-block img-fluid mr-5 main-img-margin" />
+                <div className="col-sm-12 col-md-4 d-flex justify-content-around">
+                <img src="./img/HOACC.png" className="d-block img-fluid mr-5 main-img" />
                 </div>
-                <div className="col-sm-12 col-md-6">
-                                <img src="./img/header-img.png" className="d-block img-fluid main-img-margin"/>
+                <div className="col-sm-12 col-md-6 d-flex justify-content-around">
+                   
+                                {/* <img src="./img/SteampunkGroup.jpg" className="d-block img-fluid group-photo"/> */}
+                                <img src="./img/SteampunkGroup-Photoroom.png" className="d-block img-fluid group-photo"/>
+                             
                      </div>
             </div>
                 {/* <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">

@@ -3,8 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import Footer from '../components/Footer'
 import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
-import Button from 'react-bootstrap/Button'
-import Modal from 'react-bootstrap/Modal'
 import GmaBanner from '../components/GmaBanner'
 
 const MeetTeamPage: React.FC = () => {
@@ -114,7 +112,7 @@ out with her black pug named Onyx.`
                     </div>
                 </div>
 
-                <Modal show={show} onHide={handleClose}>
+                {/* <Modal show={show} onHide={handleClose}>
                     <Modal.Header closeButton>
                         <Modal.Title>{name}</Modal.Title>
                     </Modal.Header>
@@ -157,13 +155,7 @@ out with her black pug named Onyx.`
                                     </Button>
                                 </div>
                             </div>
-                            {/* <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/team/Carla Stillwell.png" className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <h5 className="card-title">Carla Stillwell</h5>
-                                    <p className="card-text">More Info Coming Soon</p>
-                                </div>
-                            </div> */}
+                        
                         </div>
                          <div className="col">
                             <div className="card" style={{ width: '18rem;' }}>
@@ -386,7 +378,7 @@ Stephani lives with her husband and seven-year-old in Kansas. They are a sports 
                         </div>
                         
                     </div>
-                </div>
+                </div> */}
             </section>
             <div className="row">
                     <div className="col">
