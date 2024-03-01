@@ -72,12 +72,17 @@ const EducationPage: React.FC = () => {
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
                                     <h5 className="card-title text-center">Junior Young History Detectives</h5>
                                     <p className="card-text" style={{overflow:'auto', height: '460px' }}>
-                                    The House Community School are the courses through the The House which provide limited series social justice learning opportunities, open to the community through Zoom and course content available online through Teachable. Six, four-week courses were offered from June-November and served forty-five adults. Lectures, readings, and discussions covered African History and the Black Experience in America and delved into the histories that go overlooked and laid a foundation for a richer appreciation of Black History.
+                                    YHD returns for another year, with a twist!  Now, with a new group for 9-11 year olds, this year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha.
                                     <br />
                                     <br />
-                                        The 1619 Project: A New Origin Story by Nikole Hannah-Jones was released in November. The House Community School hosts
-                                        monthly discussion sessions for each section of the book. Please RSVP on our community calendar.
-                                    </p>
+                                    <br />
+                                        Summer Junior Young History Detectives
+                                        Program begins July 22-26, 10am-5pm, CEC/Rm 231</p>
+                                    <br />
+                                    <br />
+                                        <a href="https://form.jotform.com/240456639969171">
+                                            Junior Young History Detectives Interest Form 2024
+                                        </a>
                                 </div>
                             </div>
                         </div>
@@ -105,13 +110,12 @@ const EducationPage: React.FC = () => {
                                         Streets, and learn the history of Omaha, to create a VR exhibition and tour for the community. 
                                         <br />
                                         <br />
-                                        Summer YHD Mentorship
-                                        Program begins July 20-21
-                                    <br/>Summer YHD Academy is July 24 - August 4, 2023
+                                       
+                                        Program begins July 29-August 9, 2024, 10am-5pm, CEC/Rm 231 
                                     <br />
                                     <br />
-                                        <a href="https://form.jotform.com/jrlrogers/young-history-detectives-2023-sprin">
-                                            Young History Detectives Registration 2023
+                                        <a href="https://form.jotform.com/240456639969171">
+                                            Young History Detectives Interest Form 2024
                                         </a>
                                         </div>
                                     </p>
