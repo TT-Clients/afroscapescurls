@@ -167,7 +167,17 @@ box-shadow: 5px 5px #99DBFF
     
   }
 
+#alert-dialog-description{
+  height:100%!important;
+}
 
+#bio-info div.MuiPaper-root{
+  height:100%!important;
+}
+
+#alert-dialog-description{
+  overflow-y: auto;
+}
   .top-image{
     height:400px;
   }
