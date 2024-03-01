@@ -66,35 +66,7 @@ const CommunityEngagementPage: React.FC = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mt-2">
-                            <div className="card" style={{ width: '100%;' }}>
-                                <iframe
-                                    src="https://discord.com/widget?id=756766932434419723&theme=dark"
-                                    width="100%"
-                                    height="500"
-                                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-                                ></iframe>
-                                <div className="card-body">
-                                    <h5 className="card-title">Join us on Discord</h5>
-                                    <p className="card-text">We have a growing community.</p>
-                                    <a href="https://discord.gg/EhWcvQWBu6" target="_blank" rel="noreferrer" className="btn btn-primary  btn-lg about-btn">
-                                        Join our Discord!
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-8 mt-2">
-                            <div className="card" style={{ width: '100%' }}>
-                                <img src="./img/Twitch-logo.png" alt="" />{' '}
-                                <div className="card-body">
-                                    <h5 className="card-title">Watch us on Twitch</h5>
-                                    <p className="card-text">Check out our upcoming streams!</p>
-                                    <a href="https://www.twitch.tv/thehouseofafroscapescurls/videos" className="btn btn-primary  btn-lg about-btn">
-                                        Watch us on Twitch!
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </section>
