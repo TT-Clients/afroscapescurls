@@ -66,11 +66,11 @@ const EducationPage: React.FC = () => {
                     </div>
                     <div className="row mt-5">
                         <div className="col">
-                            <h2 className="text-center">The House Community School</h2>
+                            <h2 className="text-center">Junior Young History Detectives</h2>
                             <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/1619.png" className="card-img-top" />
+                                <img src="./img/kids/yhdjr.png" className="card-img-top" />
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
-                                    <h5 className="card-title text-center">The 1619 Project: A New Origin Story</h5>
+                                    <h5 className="card-title text-center">Junior Young History Detectives</h5>
                                     <p className="card-text" style={{overflow:'auto', height: '460px' }}>
                                     The House Community School are the courses through the The House which provide limited series social justice learning opportunities, open to the community through Zoom and course content available online through Teachable. Six, four-week courses were offered from June-November and served forty-five adults. Lectures, readings, and discussions covered African History and the Black Experience in America and delved into the histories that go overlooked and laid a foundation for a richer appreciation of Black History.
                                     <br />
@@ -85,7 +85,7 @@ const EducationPage: React.FC = () => {
                             <h2 className="text-center">Young History Detectives</h2>
                             <div className="card" style={{ width: '18rem;' }}>
                                 <a href="http://www.theyhd.com">
-                                    <img src="./img/yhd2.png" className="card-img-top" />
+                                    <img src="./img/kids/yhd.png" className="card-img-top" />
                                 </a>
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF'}}>
                                     <h5 className="card-title text-center">
