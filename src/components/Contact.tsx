@@ -131,8 +131,6 @@ const Contact: React.FC = () => {
                         <Button variant="contained" endIcon={<SendIcon />} size="large">
                           {submitted ? 'Message Sent!' : 'Send Message'}
                         </Button>
-                     
-                          
                     </div>
                 </form>
             </div>

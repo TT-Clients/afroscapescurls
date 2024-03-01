@@ -19,9 +19,9 @@ const RootComponent: React.FC = () => {
             <Routes>
                 <Route path={ROUTES.INTRO_ROUTE} element={<Intro />} />
                 <Route path={ROUTES.MAINPAGE_ROUTE} element={<HomePage />} />
-                {/* <Route path={ROUTES.ABOUT_ROUTE} element={<AboutPage />} />
-                <Route path={ROUTES.MEETTEAM_ROUTE} element={<MeetTeamPage />} />
-                <Route path={ROUTES.COMMUNITYENGAGEMENT_ROUTE} element={<CommunityEngagementPage />} />
+                 <Route path={ROUTES.ABOUT_ROUTE} element={<AboutPage />} />
+               <Route path={ROUTES.MEETTEAM_ROUTE} element={<MeetTeamPage />} />
+                {/* <Route path={ROUTES.COMMUNITYENGAGEMENT_ROUTE} element={<CommunityEngagementPage />} />
                 <Route path={ROUTES.EDUCATION_ROUTE} element={<EducationPage />} />
                 <Route path={ROUTES.SPECIALEVENTS_ROUTE} element={<SpecialEventsPage />} />
                 <Route path={ROUTES.SIGNATUREEVENTS_ROUTE} element={<SignatureEventsPage />} />
