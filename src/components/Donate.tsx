@@ -32,7 +32,7 @@ const Donate: React.FC = () => {
                             <a href="http://www.paypal.com/us/fundraiser/charity/4023520" className="btn btn-success btn-lg">
                                 Donate via Paypal
                             </a>
-                            <a href="https://checkout.square.site/merchant/MQ40NJ4B2EY5R/checkout/5HRIS5B4YNSR7PKBVXEB6GRX" className="btn btn-success  btn-lg">
+                            <a href="https://square.link/u/XQDXmlzi" className="btn btn-success  btn-lg">
                                 Donate via Square
                             </a>
                         </div>

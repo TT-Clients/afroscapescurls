@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Events: React.FC = () => {
-    const title = 'Regional Vice President, National Sales and Account Management'
 
     return (
         <section className="page-section bg-light" id="portfolio">

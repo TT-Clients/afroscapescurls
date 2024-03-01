@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 import TopNav from '../components/TopNav'
 import Footer from '../components/Footer'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAtom, faComments, faUserGraduate,faChartBar,faMedal,faLightbulb,faStar } from '@fortawesome/free-solid-svg-icons'
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
 import GmaBanner from '../components/GmaBanner'
 
 const AboutPage: React.FC = () => {
@@ -40,11 +40,11 @@ const AboutPage: React.FC = () => {
             <div className="container-fluid w-100 h-auto mt-5 p-0 d-flex justify-content-center">
                 <img src="./img/HOACC.png" className="img-fluid p-0 mt-5 top-image" alt="Patience" />
             </div>
-           
+
             <section className="" style={{ padding: '0', margin: 0 }}>
-                <div className="container-fluid" style={{padding:0, margin:0}}>
-                    <div className="row" style={{padding:0, margin:0}}>
-                        <div className="col" style={{padding:0, margin:0}}>
+                <div className="container-fluid" style={{ padding: 0, margin: 0 }}>
+                    <div className="row" style={{ padding: 0, margin: 0 }}>
+                        <div className="col" style={{ padding: 0, margin: 0 }}>
                             <div className="text-center" style={{ backgroundColor: 'var(--hoacc-teal)', color: 'black' }}>
                                 <h1 className="text-uppercase py-3">About the house</h1>
                             </div>
@@ -92,12 +92,30 @@ const AboutPage: React.FC = () => {
                         </div>
                     </div>
                     <div className="row mt-4">
-                         <div className="col">
-                            <img src="./img/Nukecon.jpg" className="rounded img-thumbnail" alt="..." />
-                            </div>
-                            <div className="col">
-                                <img src="./img/afrocon1.jpg" className="rounded img-thumbnail" alt="..." />
-                            </div>
+                        <ImageList sx={{ width: '100%', height: 500 }} cols={2} rowHeight={164}>
+                            <ImageListItem >
+                                <img
+                                    srcSet={`./img/whatwedo.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                    src={`./img/whatwedo.jpg?w=164&h=164&fit=crop&auto=format`}
+                                    alt="img1"
+                                    loading="lazy"
+                                />
+                            </ImageListItem>
+                            <ImageListItem >
+                                <img
+                                    srcSet={`./img/afrocon1.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                    src={`./img/afrocon1.jpg?w=164&h=164&fit=crop&auto=format`}
+                                    alt="img2"
+                                    loading="lazy"
+                                />
+                            </ImageListItem>
+                        </ImageList>
+                        {/* <div className="col">
+                            <img src="./img/whatwedo.jpg" className="rounded img-thumbnail" alt="..." />
+                        </div>
+                        <div className="col">
+                            <img src="./img/afrocon1.jpg" className="rounded img-thumbnail" alt="..." />
+                        </div> */}
 
 
                     </div>
@@ -105,7 +123,7 @@ const AboutPage: React.FC = () => {
                         {valuesArr.map((value, idx) => (
                             <div className="col-md-3" style={{ textAlign: 'center' }} key={idx}>
                                 <div>
-                                {/* <FontAwesomeIcon icon={['fab', value.icon]} /> */}
+                                    {/* <FontAwesomeIcon icon={['fab', value.icon]} /> */}
                                     <span className="fa-stack fa-2x my-2">
                                         <i className="fas fa-circle fa-stack-2x text-blue gradient"></i>
                                         <i className={value.icon}></i>
@@ -116,14 +134,14 @@ const AboutPage: React.FC = () => {
                             </div>
                         ))}
                     </div>
-                   
+
                 </div>
-            </section> 
+            </section>
             <div className="row">
-                    <div className="col">
-                        <GmaBanner />
-                    </div>
+                <div className="col">
+                    <GmaBanner />
                 </div>
+            </div>
             <Footer />
         </>
     )

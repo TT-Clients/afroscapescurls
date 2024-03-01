@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
+import { Button } from '@mui/material'
+import SendIcon from '@mui/icons-material/Send';
+import { AttachMoney } from '@mui/icons-material';
 
 
 type TopNavProps = {
@@ -49,9 +52,12 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
                 
                 </li>
               </ul>
+             
+
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
-       
-              <a href="home#donate" className="btn btn-primary" style={{backgroundColor:"white",color:"black", fontSize:'20px', float:'right'}}>DONATE</a>
+                <Button variant="contained" endIcon={<AttachMoney />} href='https://square.link/u/XQDXmlzi' sx={{backgroundColor: 'green', fontWeight:'bold'}}>
+                  Donate
+                </Button>
               </span>
             </div>
           </div>
