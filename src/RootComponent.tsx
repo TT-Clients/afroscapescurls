@@ -23,10 +23,10 @@ const RootComponent: React.FC = () => {
                <Route path={ROUTES.MEETTEAM_ROUTE} element={<MeetTeamPage />} />
                 <Route path={ROUTES.COMMUNITYENGAGEMENT_ROUTE} element={<CommunityEngagementPage />} />
                  <Route path={ROUTES.EDUCATION_ROUTE} element={<EducationPage />} />
-               {/* <Route path={ROUTES.SPECIALEVENTS_ROUTE} element={<SpecialEventsPage />} />
+               <Route path={ROUTES.SPECIALEVENTS_ROUTE} element={<SpecialEventsPage />} />
                 <Route path={ROUTES.SIGNATUREEVENTS_ROUTE} element={<SignatureEventsPage />} />
                 <Route path={ROUTES.PHOTOS_ROUTE} element={<Photos />} />
-                <Route path="*" element={<NotFoundPage />} /> */}
+                <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </Router>
     )

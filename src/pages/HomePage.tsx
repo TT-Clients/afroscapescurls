@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 import './topnav.css'
 import Policies from '../components/Policies'
 import Donate from '../components/Donate'
-import Steampunk from '../components/Steampunk'
+import RecentEvents from '../components/RecentEvents'
 
 const HomePage: React.FC = () => {
     return (
@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
           <About />
               <Events />
             <Upcoming />
-            <Steampunk />
+            <RecentEvents />
             <Donate />
             <Policies/>
             <Contact />

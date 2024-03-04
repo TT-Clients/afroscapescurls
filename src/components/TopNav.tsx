@@ -55,7 +55,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
              
 
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
-                <Button variant="contained" endIcon={<AttachMoney />} href='https://square.link/u/XQDXmlzi' sx={{backgroundColor: 'green', fontWeight:'bold'}}>
+                <Button variant="contained" endIcon={<AttachMoney />} href='home/#donate' sx={{backgroundColor: 'green', fontWeight:'bold'}}>
                   Donate
                 </Button>
               </span>

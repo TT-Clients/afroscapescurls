@@ -26,7 +26,11 @@ const Intro: React.FC = () => {
                             <div className="typewriter">
                                 <h3>&quot;Speak Friend and Enter&quot;</h3>
                             </div>
+                            <div className="speak text-center">
+                                <h3>&quot;Speak Friend and Enter&quot;</h3>
+                            </div>
                         </div>
+                        
                     </div>
                 </div>
             </div>

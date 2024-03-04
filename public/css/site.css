@@ -102,7 +102,6 @@ input[type=checkbox] {
   }
   
   .main-img{
-    margin-left:100px;
     width:546px;
     height: 546px;
   }
@@ -148,6 +147,10 @@ box-shadow: 5px 5px #99DBFF
     padding: 1.25rem;
     border: none;
 }
+.speak{display:none;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.15em;
+}
 
 @media all and (max-width: 600px) {
     .header-text{
@@ -164,7 +167,15 @@ box-shadow: 5px 5px #99DBFF
       width:100% !important;
       height:200px;
     }
-    
+    .typewriter{
+      display:none
+    }
+    .typewriter h3{
+      
+    }
+    .speak{
+      display:block
+    }
   }
 
 #alert-dialog-description{
