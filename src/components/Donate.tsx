@@ -26,13 +26,13 @@ const Donate: React.FC = () => {
                             </div>
                         </div>
                         <div className="d-flex justify-content-evenly">
-                            <a href="https://shareomaha.org/nonprofit/house-afros-capes-curls" className="btn btn-success btn-lg">
+                            <a href="https://shareomaha.org/nonprofit/house-afros-capes-curls" target='_blank' rel="noreferrer" className="btn btn-success btn-lg">
                                 Donate via Share Omaha
                             </a>
-                            <a href="http://www.paypal.com/us/fundraiser/charity/4023520" className="btn btn-success btn-lg">
+                            <a href="http://www.paypal.com/us/fundraiser/charity/4023520" target='_blank' rel="noreferrer" className="btn btn-success btn-lg">
                                 Donate via Paypal
                             </a>
-                            <a href="https://square.link/u/XQDXmlzi" className="btn btn-success  btn-lg">
+                            <a href="https://square.link/u/XQDXmlzi" target='_blank' rel="noreferrer" className="btn btn-success  btn-lg">
                                 Donate via Square
                             </a>
                         </div>

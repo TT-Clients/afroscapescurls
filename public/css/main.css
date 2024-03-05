@@ -77,6 +77,29 @@
       blink-caret 0.75s step-end infinite;
   }
 
+  .speak{
+    display:none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.15em;
+  }
+
+
+  @media all and (max-width: 600px) {
+    .typewriter{
+      display:none
+    }
+    .typewriter h3{
+      
+    }
+    .speak{
+      display:block
+    }
+    .speak h3{
+      max-width:255px;
+    }
+  
+  }
+
   /* The typing effect */
   @keyframes typing {
     from {

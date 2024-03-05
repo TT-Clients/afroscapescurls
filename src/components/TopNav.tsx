@@ -2,13 +2,20 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ROUTES } from '../resources/routes-constants'
 import { Button } from '@mui/material'
-import SendIcon from '@mui/icons-material/Send';
 import { AttachMoney } from '@mui/icons-material';
 
 
 type TopNavProps = {
   title: string
 }
+
+function scrollToElement() {
+  const element = document.getElementById('donate')
+  if (element) {
+    element.scrollIntoView({ behavior: 'smooth' })
+  }
+}
+
 
 const TopNav: React.FC<TopNavProps> = ({ title }) => {
  
@@ -55,7 +62,7 @@ const TopNav: React.FC<TopNavProps> = ({ title }) => {
              
 
               <span className="d-flex pl-2" style={{marginLeft:'50px'}}>
-                <Button variant="contained" endIcon={<AttachMoney />} href='home/#donate' sx={{backgroundColor: 'green', fontWeight:'bold'}}>
+                <Button variant="contained" endIcon={<AttachMoney />} onClick={scrollToElement} sx={{backgroundColor: 'green', fontWeight:'bold'}}>
                   Donate
                 </Button>
               </span>
