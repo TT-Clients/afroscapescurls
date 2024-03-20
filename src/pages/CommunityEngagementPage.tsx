@@ -49,7 +49,7 @@ const CommunityEngagementPage: React.FC = () => {
                         </div>
                     </div>
 
-                    <div className="row text-center mt-5">
+                    {/* <div className="row text-center mt-5">
                         <div className="col-md-12">
                             <div className="card">
                                 <a href="https://www.youtube.com/@TheHouseLXN">
@@ -67,7 +67,7 @@ const CommunityEngagementPage: React.FC = () => {
                             </div>
                         </div>
                         
-                    </div>
+                    </div> */}
                 </div>
             </section>
             <div className="row">

@@ -19,7 +19,7 @@ const EducationPage: React.FC = () => {
         <>
             <TopNav title="Education" />
             <div className="container-fluid w-100 h-auto m-0 p-0">
-                <img src="./img/kids/yhdphoto.jpeg" className="img-fluid w-100 pt-4 mt-5 top-image" alt="Patience" style={{ height: '50%' }} />
+                <img src="./img/kids/yhds.jpeg" className="img-fluid w-100 pt-4 mt-5 top-image" alt="Patience" style={{ height: '50%' }} />
             </div>
             {/* <div style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
                 <h1 style={{ fontSize: '4em' }}>Education</h1>
@@ -46,39 +46,30 @@ const EducationPage: React.FC = () => {
                             </div>
                         </div>
                     </div>
-               
+
                     <div className="row mt-5">
-                         <div className="col-xs-12 col-sm-12 col-md-6 mt-5">
-                            <div className="card" style={{ width: '18rem;' }}>
-                                <a href="http://www.theyhd.com">
+                        <div className="col-xs-12 col-sm-12 col-md-6">
+                            <div className="card" style={{ width: '18rem;' }}>  
+                            <div className="card-header d-flex justify-content-center">
+                                    <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Young History Detectives Interest Form 2024</a>
+
+                                </div>
+                                {/* <a href="http://www.theyhd.com"> */}
                                     <img src="./img/kids/yhd.png" className="card-img-top" />
-                                </a>
+                                {/* </a> */}
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
                                     <h5 className="card-title text-center">
                                         {' '}
                                         Young History Detectives
                                     </h5>
-                                    <p className="card-text" style={{ overflow: 'auto', height: '420px' }}>
-                                        <div>Young History Detectives (YHD) is our youth enrichment program. It uses geek culture to promote literacy, critical
-                                            thinking and digital literacy. The Young History Detectives learn Black History, both regional, national, and across the
-                                            African Diaspora along with historical research methods to better understand US History. The goal of the 2023 YHD
-                                            Program is to create an interactive walk through history that can be accessed throughout the community and develop:
-                                            research & documentation skills critical thinking, problem-solving, cultural enrichment, and historical knowledge with
-                                            our ongoing Spatial Memory Project. During the spring and summer, students will be researching and recording history
-                                            discovered at individual properties on 24th, 16th, and 30th Streets in North Omaha. It&apos;s a multi-year project that
-                                            they started last summer and will continue until we can create a VR experience mapping North Omaha, which is the big
-                                            picture. This is a multi-year project where we document the history of buildings and spaces on 24th, 30th, and 16th
-                                            Streets, and learn the history of Omaha, to create a VR exhibition and tour for the community.
-                                            <br />
-                                            <br />
-                                            Program begins July 29-August 9, 2024, 10am-5pm, CEC/Rm 231                                        
+                                    <p className="card-text" style={{ overflow: 'auto', fontSize:'14px' }}>
+                                        <div>Young History Detectives (YHD) is our youth enrichment program. It uses geek culture to promote literacy, critical thinking and digital literacy. 
+                                            The Young History Detectives learn Black History, both regional, national, and across the African Diaspora along with historical research methods to 
+                                            better understand US History. The YHD Summer Camp is <strong>Monday-Friday, July 29- August 9, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
                                         </div>
                                     </p>
                                 </div>
-                                <div className="card-footer d-flex justify-content-center">
-                                <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Young History Detectives Interest Form 2024</a>
-                                     
-                                    </div>
+                              
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6">
@@ -86,22 +77,20 @@ const EducationPage: React.FC = () => {
                                 <img src="./img/kids/yhdjr.png" className="card-img-top" />
                                 <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
                                     <h5 className="card-title text-center">Junior Young History Detectives</h5>
-                                    <p className="card-text" style={{ overflow: 'auto', height: '420px' }}>
-                                    Young History Detectives (YHD) returns for another year, with a twist!  Now, with a new group for 9-11 year olds, this year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha.
-                                        <br />
-                                        Summer Junior Young History Detectives
-                                        Program begins July 22-26, 10am-5pm, CEC/Rm 231</p>
+                                    <p className="card-text" style={{ overflow: 'auto', fontSize:'14px' }}>
+                                    Junior Young History Detectives is open to 9-11 year olds, interested in learning Black History, Omaha History in fun and engaging ways. This year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha. 
+                                    Summer Junior Young History Detectives Program is <strong>Monday-Friday, July 22-26, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.</p>
 
-                                  
+
                                 </div>
                                 <div className="card-footer d-flex justify-content-center">
-                                <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a>
-                                     
-                           
-  </div>
+                                    <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a>
+
+
+                                </div>
                             </div>
                         </div>
-                       
+
                     </div>
                 </div>
             </section>

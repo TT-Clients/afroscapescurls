@@ -95,16 +95,16 @@ const AboutPage: React.FC = () => {
                         <ImageList sx={{ width: '100%', height: 500 }} cols={2} rowHeight={164}>
                             <ImageListItem >
                                 <img
-                                    srcSet={`./img/whatwedo.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                                    src={`./img/whatwedo.jpg?w=164&h=164&fit=crop&auto=format`}
+                                    srcSet={`./img/about/about1.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                    src={`./img/about/about1.jpg?w=164&h=164&fit=crop&auto=format`}
                                     alt="img1"
                                     loading="lazy"
                                 />
                             </ImageListItem>
                             <ImageListItem >
                                 <img
-                                    srcSet={`./img/afrocon1.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                                    src={`./img/afrocon1.jpg?w=164&h=164&fit=crop&auto=format`}
+                                    srcSet={`./img/about/about2.jpg?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
+                                    src={`./img/about/about2.jpg?w=164&h=164&fit=crop&auto=format`}
                                     alt="img2"
                                     loading="lazy"
                                 />

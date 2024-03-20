@@ -11,7 +11,7 @@ const Upcoming: React.FC = () => {
             location:'Urban League of NE',
             date:'April 7th 2024', 
             image:'./img/calendar/napnightapril.png',
-            link:'',
+            link:'https://www.eventbrite.com/e/nap-night-tickets-858339385207?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
             description:'More information coming soon'
         },
         {
@@ -19,18 +19,18 @@ const Upcoming: React.FC = () => {
             location:'Washington Branch Library',
             date:'Thursdays, August 10th - 24th', 
             image:'./img/calendar/steampunktp2024.png',
-            link:'https://omaha.bibliocommons.com/events/647a40fab05dd010f76de2a7',
+            link:'https://www.eventbrite.com/e/steampunk-tea-party-tickets-852654601867?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl',
             description:`Join OPL every Thursday as a local community member shares their story. This month, Jade Rogers, Founder of The House of Afros, Capes, and Curls, will share her story and introduce teens to the storytelling medium of Dungeons & Dragons. 
             Enjoy snacks, engage in discussion with the storyteller, and explore new storytelling mediums and activities. Presenters will include local artists, activists, business leaders, and more, empowering teens to explore new ways to express themselves.
             This program is for teens 11–18 years old.`
         },
         {
-            title:`AfroOmaha's AfroFest`,
+            title:`Fae Dae`,
             location:'Stinson Park, 2285 S 67th St',
-            date:'Saturday September 2nd', 
+            date:'May 4th 2024', 
             image:'./img/calendar/faeday2024.png',
-            link:'https://www.eventbrite.com/e/afro-fest-omaha-2023-tickets-533889597157',
-            description:`Come see us at AfroOmaha's AfroFest!  There will also be thrilling local and international performances of live music and dance. Vendors with an array of arts, crafts, jewelry, and of course authentic African cuisine will be present! The Children’s and Educational Village will be filled with fun filled activities, and more!`
+            link:'',
+            description:`More information coming soon!`
         },
         // {
         //     title:`NukeCon Board Game Con`,
@@ -98,7 +98,7 @@ const Upcoming: React.FC = () => {
                             <div className="row justify-content-center">
                                 { events.map((event, idx)=>(
                                      <div className="col-xs-6 col-md-4" key={idx}>
-                                     <a href="#" className="thumbnail">
+                                     <a href={event.link} className="thumbnail" target="_blank" rel="noreferrer">
                                      <img src={event.image} className="img-fluid rounded-start event-img" alt="..." />
                                      </a>
                                    </div>
