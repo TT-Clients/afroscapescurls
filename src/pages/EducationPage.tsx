@@ -4,7 +4,22 @@ import TopNav from '../components/TopNav'
 import { ROUTES } from '../resources/routes-constants'
 import GmaBanner from '../components/GmaBanner'
 import Footer from '../components/Footer'
-
+import { styled } from '@mui/material/styles';
+import Card from '@mui/material/Card';
+import CardHeader from '@mui/material/CardHeader';
+import CardMedia from '@mui/material/CardMedia';
+import CardContent from '@mui/material/CardContent';
+import CardActions from '@mui/material/CardActions';
+import Box from '@mui/material/Box';
+import Collapse from '@mui/material/Collapse';
+import Avatar from '@mui/material/Avatar';
+import IconButton, { IconButtonProps } from '@mui/material/IconButton';
+import Typography from '@mui/material/Typography';
+import { red } from '@mui/material/colors';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import ShareIcon from '@mui/icons-material/Share';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 const EducationPage: React.FC = () => {
     const navigate = useNavigate()
 
@@ -46,50 +61,97 @@ const EducationPage: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="row">
+                        <div className="col">
 
-                    <div className="row mt-5">
-                        <div className="col-xs-12 col-sm-12 col-md-6">
-                            <div className="card" style={{ width: '18rem;' }}>  
-                            <div className="card-header d-flex justify-content-center">
-                                    <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Young History Detectives Interest Form 2024</a>
+                        </div>
+                    </div>
 
-                                </div>
-                                {/* <a href="http://www.theyhd.com"> */}
-                                    <img src="./img/kids/yhd.png" className="card-img-top" />
-                                {/* </a> */}
-                                <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
-                                    <h5 className="card-title text-center">
-                                        {' '}
-                                        Young History Detectives
-                                    </h5>
-                                    <p className="card-text" style={{ overflow: 'auto', fontSize:'14px' }}>
-                                        <div>Young History Detectives (YHD) is our youth enrichment program. It uses geek culture to promote literacy, critical thinking and digital literacy. 
-                                            The Young History Detectives learn Black History, both regional, national, and across the African Diaspora along with historical research methods to 
-                                            better understand US History. The YHD Summer Camp is <strong>Monday-Friday, July 29- August 9, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
+                    <div className="row mt-5 d-flex justify-content-center">
+
+                        <div className="col">
+                            <div className="card mb-3" style={{ maxWidth: "100%" }}>
+                                <div className="row g-0">
+                                    <div className="col-md-6">
+                                        <img src="./img/kids/yhdjr.png" className="img-fluid rounded-start" alt="..." />
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="card-body">
+                                            <h5 className="card-title">Junior Young History Detectives</h5>
+                                            <p className="card-text" style={{ overflow: "visible" }}>  Junior Young History Detectives is open to 9-11 year olds, interested in learning Black History, Omaha History in fun and engaging ways. This year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha.
+                                                Summer Junior Young History Detectives Program is <strong>Monday-Friday, July 22-26, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
+                                                <a className="btn btn-info" href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a></p>
+
                                         </div>
-                                    </p>
+                                    </div>
                                 </div>
-                              
                             </div>
+                        </div>
+                        <div className="col">
+                        <div className="card mb-3" style={{ maxWidth: "100%" }}>
+                                <div className="row g-0">
+                                    <div className="col-md-6">
+                                        <img src="./img/kids/yhd.png" className="img-fluid rounded-start" alt="..." />
+                                    </div>
+                                    <div className="col-md-6">
+                                        <div className="card-body">
+                                            <h5 className="card-title">Young History Detectives</h5>
+                                            <p className="card-text" style={{ overflow: "visible" }}>  Young History Detectives (YHD) is our youth enrichment program. It uses geek culture to promote literacy, critical thinking and digital literacy. The Young History Detectives learn Black History, both regional, national, and across the African Diaspora along with historical research methods to better understand US History. The YHD Summer Camp is <strong>Monday-Friday, July 29- August 9, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
+                                            <a className="btn btn-info" href="https://form.jotform.com/240456639969171">Young History Detectives Interest Form 2024</a>
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        {/* <a className="btn btn-success" style={{ marginLeft: "20px" }} href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a> */}
+                        {/* <div className="card" style={{ width: "18rem" }}>
+                                <img src="./img/kids/yhd.png" className="card-img-bottom" alt="..." />
+                                <div className="card-body">
+                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+                                </div>
+                            </div>
+
+                            <Card >
+
+                                <CardMedia
+                                    component="img"
+                                    height="20%"
+                                    width="50%"
+                                    image="./img/kids/yhd.png"
+                                    alt="Young History Detectives"
+                                />
+                                <CardContent>
+                                    <Typography variant="body2" color="text.secondary" sx={{ height: 120 }}>
+                                        Junior Young History Detectives is open to 9-11 year olds, interested in learning Black History, Omaha History in fun and engaging ways. This year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha.
+                                        Summer Junior Young History Detectives Program is <strong>Monday-Friday, July 22-26, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6">
-                            <div className="card" style={{ width: '18rem;' }}>
-                                <img src="./img/kids/yhdjr.png" className="card-img-top" />
-                                <div className="card-body" style={{ backgroundColor: '#000', color: '#FFF' }}>
-                                    <h5 className="card-title text-center">Junior Young History Detectives</h5>
-                                    <p className="card-text" style={{ overflow: 'auto', fontSize:'14px' }}>
-                                    Junior Young History Detectives is open to 9-11 year olds, interested in learning Black History, Omaha History in fun and engaging ways. This year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha. 
-                                    Summer Junior Young History Detectives Program is <strong>Monday-Friday, July 22-26, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.</p>
+                            <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a>
+                            <Card sx={{ maxWidth: "75%" }}>
 
+                                <CardMedia
+                                    component="img"
+                                    height="100%"
+                                    image="./img/kids/yhdjr.png"
+                                    alt="Paella dish"
+                                />
+                                <CardContent>
+                                    <Typography variant="body2" color="text.secondary" sx={{ height: 120 }}>
+                                        Junior Young History Detectives is open to 9-11 year olds, interested in learning Black History, Omaha History in fun and engaging ways. This year&apos;s camps will explore storytelling as a tool to present their discoveries of the people, places and events in North Omaha.
+                                        Summer Junior Young History Detectives Program is <strong>Monday-Friday, July 22-26, 2024 10am-5pm, at the University of Nebraska at Omaha</strong>.
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+*/}
 
-                                </div>
-                                <div className="card-footer d-flex justify-content-center">
-                                    <a className="btn btn-success" href="https://form.jotform.com/240456639969171">Junior Young History Detectives Interest Form 2024</a>
-
-
-                                </div>
-                            </div>
-                        </div>
 
                     </div>
                 </div>
